@@ -1,0 +1,40 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+import { legal } from '../config/legal';
+---
+
+<LegalLayout lang="it" title="Note legali" alternates={{ it: '/note-legali/', en: '/en/legal-notice/' }}>
+  <h2>Chi gestisce il sito</h2>
+  <p>
+    {legal.owner}<br />
+    {legal.address}<br />
+    Email: <a href={`mailto:${legal.email}`}>{legal.email}</a>
+    {legal.taxId && <><br />P.IVA / C.F.: {legal.taxId}</>}
+  </p>
+
+  <h2>Contenuti e prezzi</h2>
+  <p>
+    Le informazioni su questo sito servono a presentare la nostra proposta. Programmi, esperienze e periodi sono
+    indicativi e possono cambiare in base alla stagione, al meteo e alla disponibilità delle persone coinvolte.
+  </p>
+  <p>
+    I prezzi indicati sono di partenza e non costituiscono un'offerta vincolante: il prezzo definitivo viene
+    confermato per iscritto nel preventivo inviato in risposta a ogni richiesta.
+  </p>
+
+  <h2>Foto e testi</h2>
+  <p>
+    I testi sono di nostra proprietà. Alcune fotografie provengono da <a href="https://unsplash.com" rel="noopener"
+      >Unsplash</a
+    > e sono usate secondo la relativa licenza.
+  </p>
+
+  <h2>Link esterni</h2>
+  <p>
+    Il sito può contenere link ad altri siti. Non siamo responsabili dei loro contenuti né del modo in cui trattano i
+    dati personali.
+  </p>
+
+  <h2>Privacy</h2>
+  <p>Per sapere come trattiamo i dati personali leggi l'<a href="/privacy/">informativa privacy</a>.</p>
+</LegalLayout>

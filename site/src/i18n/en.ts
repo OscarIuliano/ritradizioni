@@ -235,7 +235,9 @@ export const en: Content = {
     country: 'Where are you from?',
     message: 'Message',
     messagePlaceholder: 'Tell us a bit about yourself, or ask us anything.',
-    privacy: 'I have read the privacy notice and agree to my data being used to contact me.',
+    privacyPre: 'I have read the ',
+    privacyLink: 'privacy notice',
+    privacyPost: ' and agree to my data being used to contact me.',
     updates: 'I would like to hear about new seasons.',
     submit: 'Send request',
     previewNotice: 'Local preview: this form is not connected yet and nothing is sent.',
@@ -243,7 +245,9 @@ export const en: Content = {
   },
   footer: {
     legal: 'Legal notice',
+    legalHref: '/en/legal-notice/',
     privacy: 'Privacy',
-    credits: 'Placeholder photos from Unsplash',
+    privacyHref: '/en/privacy/',
   },
+  legalPages: { updated: 'Last updated', back: 'Back to home' },
 };

@@ -235,7 +235,9 @@ export const it: Content = {
     country: 'Da dove vieni?',
     message: 'Messaggio',
     messagePlaceholder: 'Raccontaci qualcosa di te o chiedici quello che vuoi.',
-    privacy: 'Ho letto l’informativa privacy e acconsento al trattamento dei miei dati per essere ricontattato.',
+    privacyPre: 'Ho letto l’',
+    privacyLink: 'informativa privacy',
+    privacyPost: ' e acconsento al trattamento dei miei dati per essere ricontattato.',
     updates: 'Vorrei ricevere aggiornamenti sulle nuove stagioni.',
     submit: 'Invia la richiesta',
     previewNotice: 'Anteprima locale: il modulo non è ancora collegato e i dati non vengono inviati.',
@@ -243,7 +245,9 @@ export const it: Content = {
   },
   footer: {
     legal: 'Note legali',
+    legalHref: '/note-legali/',
     privacy: 'Privacy',
-    credits: 'Foto segnaposto da Unsplash',
+    privacyHref: '/privacy/',
   },
+  legalPages: { updated: 'Ultimo aggiornamento', back: 'Torna alla home' },
 };

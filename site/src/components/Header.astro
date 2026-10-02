@@ -4,17 +4,20 @@ import { content, homePath } from '../i18n';
 
 interface Props {
   lang: Lang;
+  /** Percorso della stessa pagina nelle altre lingue (per il selettore). */
+  alternates?: Record<Lang, string>;
 }
 
-const { lang } = Astro.props;
+const { lang, alternates = homePath } = Astro.props;
+const home = homePath[lang];
 const t = content[lang];
 const links = [
-  { href: '#settimana', label: t.nav.week },
-  { href: '#stagioni', label: t.nav.seasons },
-  { href: '#persone', label: t.nav.people },
-  { href: '#dove', label: t.nav.location },
-  { href: '#prezzi', label: t.nav.pricing },
-  { href: '#domande', label: t.nav.faq },
+  { href: `${home}#settimana`, label: t.nav.week },
+  { href: `${home}#stagioni`, label: t.nav.seasons },
+  { href: `${home}#persone`, label: t.nav.people },
+  { href: `${home}#dove`, label: t.nav.location },
+  { href: `${home}#prezzi`, label: t.nav.pricing },
+  { href: `${home}#domande`, label: t.nav.faq },
 ];
 const langs = Object.keys(homePath) as Lang[];
 ---
@@ -29,13 +32,13 @@ const langs = Object.keys(homePath) as Lang[];
       <div class="langs">
         {
           langs.map((l) => (
-            <a href={homePath[l]} aria-current={l === lang ? 'true' : undefined} hreflang={l}>
+            <a href={alternates[l]} aria-current={l === lang ? 'true' : undefined} hreflang={l}>
               {l.toUpperCase()}
             </a>
           ))
         }
       </div>
-      <a class="btn btn-primary cta" href="#contatti">{t.nav.cta}</a>
+      <a class="btn btn-primary cta" href={`${home}#contatti`}>{t.nav.cta}</a>
     </div>
   </div>
 </header>

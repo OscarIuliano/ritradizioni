@@ -64,7 +64,9 @@ const c = t.contact;
 
       <label class="check">
         <input name="privacy" type="checkbox" required />
-        <span>{c.privacy} *</span>
+        <span>
+          {c.privacyPre}<a href={t.footer.privacyHref} target="_blank">{c.privacyLink}</a>{c.privacyPost} *
+        </span>
       </label>
       <label class="check">
         <input name="updates" type="checkbox" />

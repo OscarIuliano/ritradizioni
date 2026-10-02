@@ -89,11 +89,14 @@ export interface Content {
     country: string;
     message: string;
     messagePlaceholder: string;
-    privacy: string;
+    privacyPre: string;
+    privacyLink: string;
+    privacyPost: string;
     updates: string;
     submit: string;
     previewNotice: string;
     success: string;
   };
-  footer: { legal: string; privacy: string; credits: string };
+  footer: { legal: string; legalHref: string; privacy: string; privacyHref: string };
+  legalPages: { updated: string; back: string };
 }

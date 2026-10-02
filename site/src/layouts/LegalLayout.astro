@@ -1,0 +1,89 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { content, homePath } from '../i18n';
+import type { Lang } from '../i18n/types';
+import { legal, legalMissing } from '../config/legal';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  alternates: Record<Lang, string>;
+}
+
+const { lang, title, alternates } = Astro.props;
+const t = content[lang];
+
+if (legalMissing.length > 0) {
+  console.warn(`[note legali] Campi da compilare in src/config/legal.ts: ${legalMissing.join(', ')}`);
+}
+
+const updated = new Date(legal.updated).toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<BaseLayout lang={lang} title={title} alternates={alternates}>
+  <Header lang={lang} alternates={alternates} />
+  <main class="section">
+    <article class="wrap legal">
+      {
+        legalMissing.length > 0 && (
+          <p class="missing">
+            Bozza: mancano alcuni dati del titolare in <code>src/config/legal.ts</code> ({legalMissing.join(', ')}).
+          </p>
+        )
+      }
+      <h1>{title}</h1>
+      <p class="updated">
+        {t.legalPages.updated}: {updated}
+      </p>
+      <slot />
+      <p class="back">
+        <a href={homePath[lang]}>← {t.legalPages.back}</a>
+      </p>
+    </article>
+  </main>
+  <Footer t={t} />
+</BaseLayout>
+
+<style>
+  .legal {
+    max-width: 780px;
+  }
+  h1 {
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 2.5rem;
+  }
+  .legal :global(h2) {
+    font-size: 1.5rem;
+    margin-top: 2.2rem;
+  }
+  .legal :global(p),
+  .legal :global(li) {
+    color: #4a4239;
+  }
+  .legal :global(ul) {
+    padding-left: 1.2rem;
+  }
+  .legal :global(li) {
+    margin-bottom: 0.4rem;
+  }
+  .missing {
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    background: #fdf0d8;
+    color: #7a5413;
+    font-size: 0.92rem;
+  }
+  .back {
+    margin-top: 3rem;
+  }
+</style>

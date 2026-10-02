@@ -1,0 +1,93 @@
+---
+import LegalLayout from '../layouts/LegalLayout.astro';
+import { legal } from '../config/legal';
+---
+
+<LegalLayout lang="it" title="Informativa privacy" alternates={{ it: '/privacy/', en: '/en/privacy/' }}>
+  <p>
+    Questa informativa spiega quali dati personali raccogliamo attraverso il sito, perché e come li trattiamo, ai sensi
+    del Regolamento (UE) 2016/679 (GDPR).
+  </p>
+
+  <h2>Titolare del trattamento</h2>
+  <p>
+    {legal.owner}, {legal.address}. Per qualsiasi domanda sulla privacy scrivi a{' '}
+    <a href={`mailto:${legal.email}`}>{legal.email}</a>.
+  </p>
+
+  <h2>Quali dati raccogliamo</h2>
+  <ul>
+    <li>
+      <strong>Modulo di richiesta</strong>: nome, email, periodo che ti interessa, numero di adulti e bambini, paese di
+      provenienza, il messaggio che ci scrivi e la tua scelta sugli aggiornamenti.
+    </li>
+    <li>
+      <strong>Dati tecnici di navigazione</strong>: il fornitore che ospita il sito registra in automatico dati come
+      l'indirizzo IP e il tipo di browser, per motivi di sicurezza e funzionamento.
+    </li>
+    <li>
+      <strong>Statistiche</strong>: se attive, contiamo le visite in forma aggregata, senza cookie e senza identificarti.
+    </li>
+  </ul>
+
+  <h2>Perché li usiamo</h2>
+  <ul>
+    <li>
+      Per rispondere alla tua richiesta e mandarti programma e preventivo: è una misura precontrattuale chiesta da te
+      (art. 6.1.b GDPR).
+    </li>
+    <li>
+      Per mandarti aggiornamenti sulle nuove stagioni, solo se hai spuntato la casella: si basa sul tuo consenso (art.
+      6.1.a GDPR), che puoi ritirare in qualsiasi momento.
+    </li>
+    <li>Per la sicurezza del sito: si basa sul nostro legittimo interesse (art. 6.1.f GDPR).</li>
+  </ul>
+
+  <h2>Per quanto tempo</h2>
+  <ul>
+    <li>
+      Le richieste di informazioni: fino a 24 mesi dall'ultimo contatto. Se la richiesta diventa una prenotazione, i dati
+      si conservano per il tempo previsto dalla legge.
+    </li>
+    <li>Gli aggiornamenti: finché non ritiri il consenso.</li>
+  </ul>
+
+  <h2>Chi può vederli</h2>
+  <p>
+    Solo le persone del progetto che rispondono alle richieste e i fornitori tecnici che ci aiutano a far funzionare il
+    sito, nominati responsabili del trattamento. Non vendiamo né cediamo i tuoi dati a nessuno.
+  </p>
+  {
+    legal.processors.length > 0 && (
+      <ul>
+        {legal.processors.map((p) => (
+          <li>
+            {p.name}: {p.role.it}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+  <p>
+    Alcuni fornitori potrebbero avere sede fuori dall'Unione Europea, ad esempio negli Stati Uniti. In quel caso il
+    trasferimento avviene con le garanzie previste dal GDPR, come il Data Privacy Framework o le clausole contrattuali
+    standard approvate dalla Commissione Europea.
+  </p>
+
+  <h2>Cookie</h2>
+  <p>
+    Il sito non usa cookie di profilazione né cookie di terze parti. I caratteri tipografici sono ospitati sul sito
+    stesso, senza collegamenti a servizi esterni.
+  </p>
+
+  <h2>I tuoi diritti</h2>
+  <p>
+    Puoi chiedere in qualsiasi momento di accedere ai tuoi dati, correggerli, cancellarli, limitarne l'uso, opporti al
+    trattamento, riceverli in un formato leggibile o ritirare il consenso. Basta scrivere a{' '}
+    <a href={`mailto:${legal.email}`}>{legal.email}</a>.
+  </p>
+  <p>
+    Se pensi che i tuoi dati siano trattati in modo scorretto puoi presentare un reclamo al{' '}
+    <a href="https://www.garanteprivacy.it" rel="noopener">Garante per la protezione dei dati personali</a>.
+  </p>
+</LegalLayout>

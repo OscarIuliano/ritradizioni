@@ -16,9 +16,8 @@ const year = new Date().getFullYear();
       <p>{t.brand.tagline}</p>
     </div>
     <nav class="links">
-      <a href="#">{t.footer.legal}</a>
-      <a href="#">{t.footer.privacy}</a>
-      <a href="https://unsplash.com" rel="noopener">{t.footer.credits}</a>
+      <a href={t.footer.legalHref}>{t.footer.legal}</a>
+      <a href={t.footer.privacyHref}>{t.footer.privacy}</a>
     </nav>
   </div>
   <div class="wrap copy">© {year} {t.brand.name}</div>

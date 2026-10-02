@@ -5,9 +5,13 @@ import { content, homePath } from '../i18n';
 
 interface Props {
   lang: Lang;
+  /** Titolo della pagina; se manca si usa quello della home. */
+  title?: string;
+  /** Percorso della stessa pagina nelle altre lingue. */
+  alternates?: Record<Lang, string>;
 }
 
-const { lang } = Astro.props;
+const { lang, title, alternates = homePath } = Astro.props;
 const t = content[lang];
 ---
 
@@ -16,12 +20,12 @@ const t = content[lang];
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{t.meta.title}</title>
+    <title>{title ? `${title} · ${t.brand.name}` : t.meta.title}</title>
     <meta name="description" content={t.meta.description} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     {
-      (Object.keys(homePath) as Lang[]).map((l) => (
-        <link rel="alternate" hreflang={l} href={homePath[l]} />
+      (Object.keys(alternates) as Lang[]).map((l) => (
+        <link rel="alternate" hreflang={l} href={alternates[l]} />
       ))
     }
     <meta name="theme-color" content="#f7f1e6" />

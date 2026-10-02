@@ -23,7 +23,7 @@ Una persona in Germania, probabilmente da smartphone, che non conosce la Calabri
 | Cosa è incluso e quanto costa | Cosa è incluso, cosa si organizza a parte, prezzo di partenza con un esempio |
 | Le persone | Chi accoglie e chi guida le esperienze: volti e storie |
 | Contatti / Richiesta | Modulo di richiesta |
-| Note legali | Impressum, privacy (GDPR), cookie |
+| Note legali e Privacy | Pagine `/note-legali/` e `/privacy/` (EN: `/en/legal-notice/`, `/en/privacy/`); i dati del titolare stanno in `site/src/config/legal.ts` |
 
 Le pagine possono anche essere sezioni di un'unica pagina lunga: per partire è spesso la scelta migliore.
 

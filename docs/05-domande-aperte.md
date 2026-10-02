@@ -13,6 +13,11 @@ In ordine di urgenza.
 - **Chi risponde alle richieste**, in che lingua e in quanto tempo?
 - **Nome e dominio**: il nome resta "Riscopri Tradizioni"? Per un pubblico tedesco potrebbe servire un nome più facile da pronunciare e ricordare. Quale dominio usare?
 
+## Prima di andare online
+
+- **Dati del titolare** per note legali e privacy: nome o ragione sociale, indirizzo, email (e P.IVA se c'è), da inserire in `site/src/config/legal.ts`.
+- **Revisione dei testi legali** (`/note-legali/`, `/privacy/`) da parte di un professionista: sono una base scritta da noi, non un parere legale.
+
 ## Prima di accettare il primo pagamento
 
 Da verificare con un professionista:
