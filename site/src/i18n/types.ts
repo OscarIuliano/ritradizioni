@@ -10,14 +10,16 @@ export type SeasonId = 'autumn' | 'winter' | 'spring' | 'summer';
 export interface Content {
   meta: { title: string; description: string };
   brand: { name: string; tagline: string };
-  nav: { week: string; seasons: string; houses: string; location: string; faq: string; cta: string };
+  nav: { week: string; seasons: string; people: string; location: string; faq: string; cta: string };
   hero: { eyebrow: string; title: string; text: string; primary: string; secondary: string; image: ImageKey };
   formula: {
     title: string;
     intro: string;
     kinds: Record<DayKind, { count: number; label: string; tag: string; text: string }>;
+    exampleTitle: string;
     dayLabel: string;
     days: { kind: DayKind; title: string }[];
+    extra: { title: string; text: string };
     note: string;
   };
   experiences: {
@@ -41,10 +43,12 @@ export interface Content {
     }[];
   };
   pantry: { title: string; text: string; image: ImageKey };
-  houses: {
+  freeDay: {
     title: string;
     intro: string;
-    items: { name: string; beds: string; text: string; image: ImageKey }[];
+    places: { name: string; text: string }[];
+    note: string;
+    image: ImageKey;
   };
   people: { title: string; text: string; image: ImageKey };
   location: {

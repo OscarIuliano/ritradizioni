@@ -2,35 +2,36 @@ import type { Content } from './types';
 
 export const en: Content = {
   meta: {
-    title: 'Tra Due Mari · Five days of Calabrian life',
+    title: 'Tra Due Mari · Live the traditions of Calabria',
     description:
-      'Five-day stays in a Calabrian village between the Tyrrhenian and Ionian seas: seasonal harvests, home cooking, walks and a house of your own.',
+      'Stays in Calabria between the Tyrrhenian and Ionian seas: seasonal harvests, home cooking, walks and a countryside house of your own.',
   },
-  brand: { name: 'Tra Due Mari', tagline: 'Calabrian traditions, five days at a time' },
+  brand: { name: 'Tra Due Mari', tagline: 'Calabrian traditions to live, not just watch' },
   nav: {
-    week: 'The week',
+    week: 'Your stay',
     seasons: 'Seasons',
-    houses: 'The houses',
+    people: 'Who welcomes you',
     location: 'Where we are',
     faq: 'FAQ',
     cta: 'Get in touch',
   },
   hero: {
     eyebrow: 'Calabria, Italy · between two seas',
-    title: 'Five days living Calabria like the people who call it home',
-    text: 'Pick olives, cook with the people who keep the family recipes, walk where tourists never go. Stay in a village house and take home the olive oil, sauce or jam you made yourself.',
-    primary: 'See the week',
+    title: 'Live Calabria like the people who call it home',
+    text: 'Pick olives, cook with the people who keep the family recipes, walk where tourists never go. Stay in a house in the countryside and take home the olive oil, sauce or jam you made yourself.',
+    primary: 'See your stay',
     secondary: 'Ask for details',
     image: 'heroUliveto',
   },
   formula: {
-    title: 'One week, always the same recipe',
-    intro: 'Every stay lasts five days and is made of three ingredients. Only the seasonal one changes.',
+    title: 'One stay, always the same recipe',
+    intro: 'Every stay is made of three ingredients. Only the seasonal one changes, and if you want to stay longer you can add days and experiences.',
     kinds: {
       guaranteed: { count: 3, label: 'Signature experiences', tag: 'Signature experience', text: 'Always included, whatever the month.' },
       seasonal: { count: 1, label: 'Seasonal experience', tag: 'Seasonal experience', text: 'Follows whatever the land is giving at that moment.' },
-      free: { count: 1, label: 'Free day', tag: 'Free day', text: 'The sea, a day trip or doing nothing at all: your call.' },
+      free: { count: 1, label: 'Free day', tag: 'Free day', text: 'Go and discover Calabria: the sea, old towns, the mountains.' },
     },
+    exampleTitle: 'A sample stay',
     dayLabel: 'Day',
     days: [
       { kind: 'guaranteed', title: 'Cooking with us' },
@@ -39,11 +40,12 @@ export const en: Content = {
       { kind: 'free', title: 'Free day' },
       { kind: 'guaranteed', title: 'Meet the maker' },
     ],
-    note: 'Your house is included. You book your own travel, and we tell you everything you need to get here.',
+    extra: { title: 'And if you like, more', text: 'Extra days and experiences, tailored to you' },
+    note: 'Your house is included. You book your own travel and rental car, and we tell you everything you need.',
   },
   experiences: {
     title: 'Three signature experiences',
-    intro: 'Whenever you come, these three days are always part of your week.',
+    intro: 'Whenever you come, these three days are always part of your stay.',
     items: [
       {
         title: 'Cooking with us',
@@ -72,8 +74,8 @@ export const en: Content = {
         id: 'autumn',
         name: 'Autumn',
         months: 'October – December',
-        title: 'The olive harvest',
-        text: 'Gather olives under the trees, bring them to the mill and taste the fresh oil on warm bread.',
+        title: 'Olives, chestnuts and mushrooms',
+        text: 'Gather olives, bring them to the mill and taste the fresh oil on warm bread. Meanwhile, the woods are full of chestnuts and mushrooms.',
         takeHome: 'New-season extra virgin olive oil',
         image: 'raccoltaOlive',
       },
@@ -99,45 +101,39 @@ export const en: Content = {
         id: 'summer',
         name: 'Summer',
         months: 'July – September',
-        title: 'Tomatoes and passata',
-        text: 'Pick ripe tomatoes and turn them into sauce the same day, all together, as every Calabrian family does in August.',
-        takeHome: 'Bottles of homemade tomato sauce',
+        title: 'The summer garden',
+        text: 'The vegetable garden is at its best: tomatoes, chilli peppers, aubergines and much more. Pick them and make sauce the same day, all together, as every Calabrian family does in August.',
+        takeHome: 'Homemade sauce and preserves',
         image: 'salsaBarattoli',
       },
     ],
   },
   pantry: {
     title: 'A souvenir you can eat',
-    text: 'At the end of the week you take home what you made with your own hands. The trip goes on at your table, every time you open the pantry.',
+    text: 'At the end of your stay you take home what you made with your own hands. The trip goes on at your table, every time you open the pantry.',
     image: 'olio',
   },
-  houses: {
-    title: 'The houses',
-    intro: 'Two houses in the heart of the village, made ready for guests. You live on a real street, with neighbours, everyday sounds and the smell of lunch cooking.',
-    items: [
-      {
-        name: 'Casa degli Ulivi',
-        beds: '2–3 beds · up to 4 with children',
-        text: 'Wooden beams, thick walls that stay cool in summer, a short walk from the square.',
-        image: 'cameraTravi',
-      },
-      {
-        name: 'Casa della Fontana',
-        beds: '2–3 beds · up to 4 with children',
-        text: 'Bright and quiet, ideal for a couple or a small family.',
-        image: 'cameraLuce',
-      },
+  freeDay: {
+    title: 'So much of Calabria to discover',
+    intro: 'A day of your own to explore a region full of places worth seeing. A few ideas, all within driving distance:',
+    places: [
+      { name: 'Tropea and Capo Vaticano', text: 'The clifftop town above the sea and some of the finest beaches on the Tyrrhenian coast.' },
+      { name: 'Pizzo', text: 'A castle by the sea, narrow old streets and the famous tartufo ice cream.' },
+      { name: 'La Sila', text: 'Forests, lakes and mountain villages: the other face of Calabria.' },
+      { name: 'Le Castella', text: 'A fortress that seems to float on the Ionian Sea.' },
     ],
+    note: 'We share our favourite routes and addresses to help you plan the day.',
+    image: 'costaCalabria',
   },
   people: {
     title: 'Who welcomes you',
-    text: 'There is no reception desk. You are welcomed by the people of the village: they open their doors, teach you their recipes and take you to the places they love.',
+    text: 'There is no reception desk. You are welcomed by local people: they open their doors, teach you their recipes and take you to the places they love.',
     image: 'peperoni',
   },
   location: {
     title: 'Between two seas',
     text: 'We are near Lamezia Terme, in the narrowest part of Calabria: the Tyrrhenian Sea on one side, the Ionian on the other. Olive groves and beaches are never far apart.',
-    village: 'The village',
+    village: 'We are here',
     tyrrhenian: 'Tyrrhenian Sea',
     ionian: 'Ionian Sea',
     facts: [
@@ -159,6 +155,22 @@ export const en: Content = {
       {
         q: 'Are flights included?',
         a: 'No. You book your own travel, however you like. We give you all the directions from Lamezia Terme airport.',
+      },
+      {
+        q: 'How long is a stay?',
+        a: 'The core stay includes the three signature experiences, the seasonal one and a free day. You can stay longer and add more experiences: just tell us what you would like.',
+      },
+      {
+        q: 'Do I need a car?',
+        a: 'Yes. To get around and enjoy your free day you need a rental car, which you can pick up right at Lamezia Terme airport.',
+      },
+      {
+        q: 'Are meals included?',
+        a: 'Some lunches and dinners are included, as part of the experiences. On other days you can cook at home with local produce or try the traditional trattorias nearby: we will tell you where to go.',
+      },
+      {
+        q: 'Where do I stay?',
+        a: 'In a simple, self-contained house in the countryside, all to yourself: your base for each day and a quiet place to rest at night.',
       },
       {
         q: 'Can I bring children?',
@@ -185,10 +197,10 @@ export const en: Content = {
     email: 'Email',
     period: 'When would you like to come?',
     periodOptions: [
-      'Autumn – olive harvest',
+      'Autumn – olives, chestnuts and mushrooms',
       'Winter – citrus and marmalade',
       'Spring – wild greens and cooking',
-      'Summer – tomatoes and sauce',
+      'Summer – the garden and homemade sauce',
       'Not sure yet',
     ],
     adults: 'Adults',

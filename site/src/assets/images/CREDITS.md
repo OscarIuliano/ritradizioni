@@ -1,14 +1,12 @@
 # Foto segnaposto
 
-Tutte le foto vengono da [Unsplash](https://unsplash.com) (licenza Unsplash, uso gratuito). Sono temporanee: vanno sostituite con le foto reali delle case, del paese e delle attività, mantenendo lo stesso nome file.
+Tutte le foto vengono da [Unsplash](https://unsplash.com) (licenza Unsplash, uso gratuito). Sono temporanee: vanno sostituite con le foto reali della campagna, delle persone e delle attività, mantenendo lo stesso nome file.
 
 | File | Autore | Originale |
 | --- | --- | --- |
 | arance.jpg | Akbar Nemati | https://unsplash.com/photos/0d8ea_JJtEE |
 | borgo-balcone.jpg | Vincenzo De Simone | https://unsplash.com/photos/bgPMXRNKtjA |
 | borgo-scale.jpg | Yolanda Jiménez Caro | https://unsplash.com/photos/ftos5m1gWYM |
-| camera-luce.jpg | Francesco Ungaro | https://unsplash.com/photos/eSfNJWiJowg |
-| camera-travi.jpg | Francesco Ungaro | https://unsplash.com/photos/vzr68uRFYHU |
 | cortile-forno.jpg | Valleluce | https://unsplash.com/photos/XXP0y6Cvtk0 |
 | costa-calabria.jpg | Francesco Liotti | https://unsplash.com/photos/ldWyiSkcSU8 |
 | hero-uliveto.jpg | Marie P | https://unsplash.com/photos/M6jXE5-WLKA |

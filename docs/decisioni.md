@@ -14,5 +14,12 @@
 | 2026-10-02 | Voli e viaggio non inclusi: li organizzano gli ospiti | Offerta limitata a soggiorno ed esperienze |
 | 2026-10-02 | Prima fase = validazione: portale vetrina che raccoglie contatti interessati | Capire se la proposta funziona prima di costruire prenotazioni e pagamenti |
 | 2026-10-02 | Sito in Astro, statico; hosting e servizi esterni non ancora attivati | Veloce, multilingua, costi quasi nulli, cresce nello stesso repository |
-| 2026-10-02 | Lingue del sito: inglese (principale) e italiano; tedesco più avanti | Testi scritti internamente in IT/EN |
+| 2026-10-02 | Lingue del sito: italiano e inglese; tedesco più avanti | Testi scritti internamente in IT/EN |
 | 2026-10-02 | Nome provvisorio: "Tra Due Mari" | Richiama la posizione tra Tirreno e Ionio; da confermare |
+| 2026-10-02 | Lingua principale del sito: italiano (`/`), inglese su `/en/` | Scelta del fondatore |
+| 2026-10-02 | Le case non vengono mostrate sul portale | Sono case semplici in campagna: garantiscono l'alloggio, il valore sta nelle esperienze |
+| 2026-10-02 | Sul portale nessun numero fisso di giorni; soggiorno estendibile con esperienze extra | Lasciare spazio a soggiorni più lunghi e add-on |
+| 2026-10-02 | Auto a noleggio a carico degli ospiti, da dichiarare chiaramente | Serve per spostamenti e giornata libera |
+| 2026-10-02 | Pasti: alcuni compresi nelle esperienze, gli altri a casa o in trattoria | Flessibilità e costi contenuti |
+| 2026-10-02 | Foto Unsplash attuali accettate anche per la messa online | Da sostituire con foto reali più avanti |
+| 2026-10-02 | Prezzo: lavorazione parallela con calcolo costi e margine | Serve un prezzo di partenza sostenibile |

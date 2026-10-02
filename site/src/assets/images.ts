@@ -3,8 +3,6 @@
 import arance from './images/arance.jpg';
 import borgoBalcone from './images/borgo-balcone.jpg';
 import borgoScale from './images/borgo-scale.jpg';
-import cameraLuce from './images/camera-luce.jpg';
-import cameraTravi from './images/camera-travi.jpg';
 import cortileForno from './images/cortile-forno.jpg';
 import costaCalabria from './images/costa-calabria.jpg';
 import heroUliveto from './images/hero-uliveto.jpg';
@@ -23,8 +21,6 @@ export const images = {
   arance,
   borgoBalcone,
   borgoScale,
-  cameraLuce,
-  cameraTravi,
   cortileForno,
   costaCalabria,
   heroUliveto,

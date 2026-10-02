@@ -19,7 +19,6 @@ Una persona in Germania, probabilmente da smartphone, che non conosce la Calabri
 | Home | Immagine o video forte, promessa in una frase, la formula dei 5 giorni a colpo d'occhio, invito a chiedere informazioni |
 | La settimana | Le 3 esperienze garantite, l'esperienza di stagione, la giornata libera, un esempio di programma giorno per giorno |
 | Calendario delle stagioni | Cosa si fa in ogni periodo dell'anno e cosa si porta a casa |
-| Le case | Foto, posti letto, servizi, il paese |
 | Dove siamo | Mappa, tra due mari, come arrivare (aeroporto di Lamezia Terme, treno) |
 | Le persone | Chi accoglie e chi guida le esperienze: volti e storie |
 | Contatti / Richiesta | Modulo di richiesta |
@@ -46,13 +45,17 @@ Le richieste arrivano via email e vengono salvate in un elenco (es. un foglio di
 
 ## Requisiti
 
-- **Lingue**: tedesco e inglese all'avvio; italiano in seguito.
+- **Lingue**: italiano (principale) e inglese all'avvio; tedesco in seguito.
 - **Mobile first**: deve essere perfetto da smartphone.
 - **Veloce**: si deve caricare in fretta anche con molte foto.
 - **Facile da aggiornare**: testi, foto e calendario modificabili senza riscrivere il codice.
 - **Misurabile**: statistiche di visita rispettose della privacy, senza banner cookie invasivi se possibile.
 - **Costi bassi**: hosting gratuito o quasi.
 - **Pronto a crescere**: in futuro potrà ospitare prenotazioni, pagamenti e altro.
+
+## Alloggio
+
+Le case non vengono mostrate come attrazione: sono case semplici in campagna che garantiscono l'alloggio. Il portale le cita solo come parte inclusa nel pacchetto (formula e domande frequenti).
 
 ## Tono e stile
 

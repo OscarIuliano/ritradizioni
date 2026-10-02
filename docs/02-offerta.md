@@ -1,8 +1,8 @@
 # Offerta
 
-## La formula: 5 giorni, sempre la stessa struttura
+## La formula: sempre la stessa struttura
 
-Ogni pacchetto dura 5 giorni e ha una struttura fissa, facile da capire e da comunicare.
+Il soggiorno base ha una struttura fissa, facile da capire e da comunicare. Sul portale non si indica un numero fisso di giorni: il soggiorno si può allungare e arricchire con esperienze extra (add-on).
 
 | Giorni | Cosa | Varia? |
 | --- | --- | --- |
@@ -10,9 +10,13 @@ Ogni pacchetto dura 5 giorni e ha una struttura fissa, facile da capire e da com
 | 1 | **Esperienza di stagione**: dipende dal periodo (es. una raccolta per fare la marmellata) | Sì, secondo il calendario |
 | 1 | **Giornata libera**: mare, visite, riposo | A scelta dell'ospite |
 
-L'alloggio in una delle case è incluso. **Viaggio e voli sono organizzati dagli ospiti** e non fanno parte dell'offerta.
+L'alloggio in una delle case è incluso. **Viaggio, voli e auto a noleggio sono organizzati dagli ospiti** e non fanno parte dell'offerta: l'auto serve per gli spostamenti e la giornata libera.
 
-**Prezzo**: costo fisso X, da calcolare (vedi [domande aperte](05-domande-aperte.md)).
+**Pasti**: alcuni pranzi e cene sono compresi, legati alle esperienze. Negli altri giorni gli ospiti cucinano a casa o vanno nelle trattorie tipiche della zona, su nostro consiglio.
+
+**Giornata libera**: la valorizziamo suggerendo luoghi da visitare (es. Tropea e Capo Vaticano, Pizzo, la Sila, Le Castella).
+
+**Prezzo**: prezzo di partenza da calcolare (vedi [Prezzo](07-prezzo.md)).
 
 ### Le 3 esperienze garantite (da confermare)
 
@@ -28,9 +32,9 @@ Le attività e i periodi sotto sono **ipotesi** da verificare con le persone del
 
 | Periodo | Esperienza di stagione | Prodotto da portare a casa |
 | --- | --- | --- |
-| Ottobre – Dicembre | Raccolta delle olive, frantoio | Olio extravergine |
+| Ottobre – Dicembre | Raccolta delle olive, frantoio; castagne e funghi | Olio extravergine |
 | Dicembre – Febbraio | Raccolta degli agrumi, marmellata | Vasetti di marmellata |
-| Agosto | Raccolta dei pomodori, salsa fatta in casa | Bottiglie di salsa |
+| Luglio – Settembre | L'orto d'estate (pomodori, peperoncini, melanzane…), salsa fatta in casa | Salsa e conserve |
 | Agosto – Settembre | Raccolta dei fichi, essiccazione e dolci | Fichi secchi |
 | Settembre – Ottobre | Vendemmia | Vino |
 | Primavera | Erbe spontanee e cucina | Da definire |

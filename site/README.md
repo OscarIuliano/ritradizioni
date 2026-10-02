@@ -1,6 +1,6 @@
 # Sito – Tra Due Mari
 
-Portale vetrina in [Astro](https://astro.build), pagina unica in inglese (`/`) e italiano (`/it/`).
+Portale vetrina in [Astro](https://astro.build), pagina unica in italiano (`/`) e inglese (`/en/`).
 
 ## Avvio in locale
 

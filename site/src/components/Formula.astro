@@ -31,6 +31,7 @@ const kinds = Object.keys(f.kinds) as DayKind[];
       }
     </ul>
 
+    <h3 class="example">{f.exampleTitle}</h3>
     <ol class="days">
       {
         f.days.map((d, i) => (
@@ -43,6 +44,11 @@ const kinds = Object.keys(f.kinds) as DayKind[];
           </li>
         ))
       }
+      <li class="day extra">
+        <span class="day-num">+</span>
+        <span class="day-title">{f.extra.title}</span>
+        <span class="day-kind">{f.extra.text}</span>
+      </li>
     </ol>
 
     <p class="note">{f.note}</p>
@@ -88,7 +94,7 @@ const kinds = Object.keys(f.kinds) as DayKind[];
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 0.6rem;
   }
   .day {
@@ -118,6 +124,15 @@ const kinds = Object.keys(f.kinds) as DayKind[];
     margin-top: auto;
     font-size: 0.8rem;
     opacity: 0.85;
+  }
+  .example {
+    font-size: 1.1rem;
+    margin-bottom: 0.9rem;
+  }
+  .extra {
+    background: transparent;
+    color: var(--ink);
+    border: 2px dashed var(--line);
   }
   .note {
     margin-top: 1.5rem;

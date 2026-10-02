@@ -2,35 +2,36 @@ import type { Content } from './types';
 
 export const it: Content = {
   meta: {
-    title: 'Tra Due Mari · Cinque giorni di vita calabrese',
+    title: 'Tra Due Mari · Vivi le tradizioni della Calabria',
     description:
-      'Settimane di 5 giorni in un paese della Calabria tra Tirreno e Ionio: raccolta, cucina tradizionale, passeggiate e una casa tutta per te.',
+      'Soggiorni in Calabria tra Tirreno e Ionio: raccolte di stagione, cucina tradizionale, passeggiate e una casa in campagna tutta per te.',
   },
-  brand: { name: 'Tra Due Mari', tagline: 'Tradizioni calabresi, cinque giorni alla volta' },
+  brand: { name: 'Tra Due Mari', tagline: 'Tradizioni calabresi da vivere' },
   nav: {
-    week: 'La settimana',
+    week: 'Il soggiorno',
     seasons: 'Le stagioni',
-    houses: 'Le case',
+    people: 'Chi ti accoglie',
     location: 'Dove siamo',
     faq: 'Domande',
     cta: 'Richiedi info',
   },
   hero: {
     eyebrow: 'Calabria · tra il Tirreno e lo Ionio',
-    title: 'Cinque giorni per vivere la Calabria come chi ci abita',
-    text: 'Raccogli le olive, cucina con chi custodisce le ricette di famiglia, cammina dove i turisti non arrivano. Dormi in una casa del paese e torni a casa con l’olio, la salsa o la marmellata che hai fatto tu.',
-    primary: 'Scopri la settimana',
+    title: 'Vivi la Calabria come chi ci abita',
+    text: 'Raccogli le olive, cucina con chi custodisce le ricette di famiglia, cammina dove i turisti non arrivano. Dormi in una casa in campagna e torni a casa con l’olio, la salsa o la marmellata che hai fatto tu.',
+    primary: 'Scopri il soggiorno',
     secondary: 'Richiedi informazioni',
     image: 'heroUliveto',
   },
   formula: {
-    title: 'Una settimana, sempre la stessa ricetta',
-    intro: 'Ogni soggiorno dura cinque giorni ed è fatto di tre ingredienti. Cambia solo quello di stagione.',
+    title: 'Un soggiorno, sempre la stessa ricetta',
+    intro: 'Ogni soggiorno è fatto di tre ingredienti. Cambia solo quello di stagione, e se vuoi restare di più aggiungi giorni ed esperienze.',
     kinds: {
       guaranteed: { count: 3, label: 'Esperienze garantite', tag: 'Esperienza garantita', text: 'Ci sono sempre, in ogni periodo dell’anno.' },
       seasonal: { count: 1, label: 'Esperienza di stagione', tag: 'Esperienza di stagione', text: 'Segue quello che offre la terra in quel momento.' },
-      free: { count: 1, label: 'Giornata libera', tag: 'Giornata libera', text: 'Mare, visite o riposo: decidi tu.' },
+      free: { count: 1, label: 'Giornata libera', tag: 'Giornata libera', text: 'Per scoprire la Calabria: mare, borghi, montagna.' },
     },
+    exampleTitle: 'Un esempio di soggiorno',
     dayLabel: 'Giorno',
     days: [
       { kind: 'guaranteed', title: 'In cucina con noi' },
@@ -39,11 +40,12 @@ export const it: Content = {
       { kind: 'free', title: 'Giornata libera' },
       { kind: 'guaranteed', title: 'A casa del produttore' },
     ],
-    note: 'L’alloggio è incluso. Il viaggio lo organizzi tu: ti diamo tutte le indicazioni per arrivare.',
+    extra: { title: 'E se vuoi, di più', text: 'Altri giorni ed esperienze su misura' },
+    note: 'L’alloggio è incluso. Viaggio e auto a noleggio li organizzi tu: ti diamo tutte le indicazioni.',
   },
   experiences: {
     title: 'Le tre esperienze garantite',
-    intro: 'In qualunque mese arrivi, queste tre giornate fanno sempre parte della tua settimana.',
+    intro: 'In qualunque mese arrivi, queste tre giornate fanno sempre parte del tuo soggiorno.',
     items: [
       {
         title: 'In cucina con noi',
@@ -72,8 +74,8 @@ export const it: Content = {
         id: 'autumn',
         name: 'Autunno',
         months: 'Ottobre – Dicembre',
-        title: 'La raccolta delle olive',
-        text: 'Si raccolgono le olive sotto gli alberi, si portano al frantoio e si assaggia l’olio appena fatto sul pane caldo.',
+        title: 'Olive, castagne e funghi',
+        text: 'Si raccolgono le olive, si portano al frantoio e si assaggia l’olio appena fatto sul pane caldo. Nei boschi intanto è tempo di castagne e funghi.',
         takeHome: 'Olio extravergine nuovo',
         image: 'raccoltaOlive',
       },
@@ -99,45 +101,39 @@ export const it: Content = {
         id: 'summer',
         name: 'Estate',
         months: 'Luglio – Settembre',
-        title: 'Pomodori e salsa',
-        text: 'Si raccolgono i pomodori maturi e si fa la salsa in giornata, tutti insieme, come d’agosto in ogni casa calabrese.',
-        takeHome: 'Bottiglie di salsa fatta in casa',
+        title: 'L’orto d’estate',
+        text: 'L’orto dà il meglio di sé: pomodori, peperoncini, melanzane e molto altro. Si raccoglie e si prepara la salsa in giornata, tutti insieme, come d’agosto in ogni casa calabrese.',
+        takeHome: 'Salsa e conserve fatte in casa',
         image: 'salsaBarattoli',
       },
     ],
   },
   pantry: {
     title: 'Un ricordo che si mangia',
-    text: 'Alla fine della settimana porti a casa quello che hai preparato con le tue mani. Il viaggio continua a tavola, ogni volta che apri la dispensa.',
+    text: 'Alla fine del soggiorno porti a casa quello che hai preparato con le tue mani. Il viaggio continua a tavola, ogni volta che apri la dispensa.',
     image: 'olio',
   },
-  houses: {
-    title: 'Le case',
-    intro: 'Due case nel cuore del paese, sistemate per accogliere chi arriva. Vivi in una via vera, con i vicini, i rumori e i profumi di ogni giorno.',
-    items: [
-      {
-        name: 'Casa degli Ulivi',
-        beds: '2–3 posti letto · fino a 4 con bambini',
-        text: 'Travi a vista, muri spessi e fresco d’estate. A due passi dalla piazza.',
-        image: 'cameraTravi',
-      },
-      {
-        name: 'Casa della Fontana',
-        beds: '2–3 posti letto · fino a 4 con bambini',
-        text: 'Luminosa e silenziosa, perfetta per una coppia o una piccola famiglia.',
-        image: 'cameraLuce',
-      },
+  freeDay: {
+    title: 'Una Calabria tutta da scoprire',
+    intro: 'Un giorno tutto per te, per scoprire una Calabria piena di posti da vedere. Qualche idea, tutte raggiungibili in auto:',
+    places: [
+      { name: 'Tropea e Capo Vaticano', text: 'Il borgo affacciato sul mare e alcune delle spiagge più belle del Tirreno.' },
+      { name: 'Pizzo', text: 'Il castello sul mare, i vicoli del centro e il famoso tartufo gelato.' },
+      { name: 'La Sila', text: 'Boschi, laghi e paesi di montagna: l’altra faccia della Calabria.' },
+      { name: 'Le Castella', text: 'Una fortezza che sembra galleggiare sullo Ionio.' },
     ],
+    note: 'Ti consigliamo noi itinerari e indirizzi per organizzare la giornata.',
+    image: 'costaCalabria',
   },
   people: {
     title: 'Chi ti accoglie',
-    text: 'Non troverai una reception. Ti accolgono le persone del paese: ti aprono la porta, ti insegnano le ricette e ti portano nei posti che amano.',
+    text: 'Non troverai una reception. Ti accolgono le persone del posto: ti aprono la porta, ti insegnano le ricette e ti portano nei posti che amano.',
     image: 'peperoni',
   },
   location: {
     title: 'Tra due mari',
     text: 'Siamo vicino a Lamezia Terme, nella parte più stretta della Calabria: da un lato il Tirreno, dall’altro lo Ionio. In poco tempo passi dagli ulivi alla spiaggia.',
-    village: 'Il paese',
+    village: 'Siamo qui',
     tyrrhenian: 'Mar Tirreno',
     ionian: 'Mar Ionio',
     facts: [
@@ -159,6 +155,22 @@ export const it: Content = {
       {
         q: 'Il volo è incluso?',
         a: 'No. Il viaggio lo organizzi tu, in totale libertà. Ti diamo tutte le indicazioni per arrivare dall’aeroporto di Lamezia Terme.',
+      },
+      {
+        q: 'Quanto dura il soggiorno?',
+        a: 'Il soggiorno base comprende le tre esperienze garantite, quella di stagione e una giornata libera. Puoi restare più a lungo e aggiungere altre esperienze: dicci cosa ti piacerebbe.',
+      },
+      {
+        q: 'Serve l’auto?',
+        a: 'Sì. Per gli spostamenti e la giornata libera serve un’auto a noleggio, che puoi ritirare direttamente all’aeroporto di Lamezia Terme.',
+      },
+      {
+        q: 'I pasti sono inclusi?',
+        a: 'Alcuni pranzi e cene sono compresi, legati alle esperienze. Negli altri giorni puoi cucinare a casa con i prodotti del posto o provare le trattorie tipiche della zona: ti consigliamo noi dove andare.',
+      },
+      {
+        q: 'Dove si dorme?',
+        a: 'In una casa indipendente in campagna, semplice e tutta per te: il posto da cui partire ogni mattina e dove riposare la sera.',
       },
       {
         q: 'Posso venire con i bambini?',
@@ -185,10 +197,10 @@ export const it: Content = {
     email: 'Email',
     period: 'Quando ti piacerebbe venire?',
     periodOptions: [
-      'Autunno – raccolta delle olive',
+      'Autunno – olive, castagne e funghi',
       'Inverno – agrumi e marmellata',
       'Primavera – erbe e cucina',
-      'Estate – pomodori e salsa',
+      'Estate – l’orto e la salsa',
       'Non ho ancora deciso',
     ],
     adults: 'Adulti',

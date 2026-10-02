@@ -1,8 +1,8 @@
 # Riscopri Tradizioni
 
-Settimane di 5 giorni in Calabria, tra Lamezia Terme e Pianopoli, per vivere le tradizioni del territorio insieme a chi le porta avanti: raccogliere le olive e portarsi a casa l'olio, fare la salsa di pomodoro d'estate, cucinare piatti locali, camminare in posti che i turisti di solito non vedono.
+Soggiorni in Calabria, tra Lamezia Terme e Pianopoli, per vivere le tradizioni del territorio insieme a chi le porta avanti: raccogliere le olive e portarsi a casa l'olio, fare la salsa con gli ortaggi dell'orto d'estate, cucinare piatti locali, camminare in posti che i turisti di solito non vedono.
 
-Ogni settimana ha 3 esperienze garantite, 1 esperienza di stagione e 1 giornata libera. Gli ospiti alloggiano in case del paese oggi vuote, sul modello dell'albergo diffuso.
+Ogni soggiorno ha 3 esperienze garantite, 1 esperienza di stagione e 1 giornata libera, e si può allungare con giorni ed esperienze extra. Gli ospiti alloggiano in case semplici in campagna.
 
 ## Documentazione
 
@@ -14,8 +14,9 @@ Ogni settimana ha 3 esperienze garantite, 1 esperienza di stagione e 1 giornata 
 | [Scope](docs/04-scope.md) | Cosa serve per partire (business e software), MVP |
 | [Domande aperte](docs/05-domande-aperte.md) | Punti da chiarire prima di decidere |
 | [Portale](docs/06-portale.md) | Il sito vetrina della prima fase: pagine, modulo di richiesta, requisiti |
+| [Prezzo](docs/07-prezzo.md) | Metodo e voci di costo per calcolare il prezzo di partenza |
 | [Decisioni](docs/decisioni.md) | Registro delle decisioni prese |
 
 ## Stato
 
-Prima fase: verificare l'interesse con un portale vetrina che raccoglie contatti, a partire dalla Germania. Tecnologia da scegliere.
+Prima fase: verificare l'interesse con un portale vetrina che raccoglie contatti. Il sito è in [`site/`](site/) (Astro); le modifiche richieste si raccolgono in [`modifiche/`](modifiche/).
