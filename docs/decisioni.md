@@ -34,3 +34,4 @@
 | 2026-10-02 | Test di mercato di 6 settimane con obiettivi fissati prima | Decidere sui numeri, non sulle impressioni |
 | 2026-10-02 | Nome definitivo: "Calabria Lenta" (sostituisce "Tra Due Mari") | traduemari.it/.com già registrati, il .it da una società di turismo slow in Salento; nome più distintivo e chiaro all'estero. calabrialenta.com e .it liberi |
 | 2026-10-02 | Sito online su https://calabrialenta.com; inizio del test di mercato (fine prevista 2026-11-13) | Cloudflare Pages collegato al repository, pubblicazione automatica a ogni push su main |
+| 2026-10-02 | Sito registrato su Google Search Console e Bing Webmaster Tools, sitemap inviata | Farsi indicizzare subito |

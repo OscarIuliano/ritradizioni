@@ -71,6 +71,13 @@ Al commit su GitHub, Cloudflare pubblica il sito da solo.
 - [ ] Web Analytics registra le prime visite (può servire qualche ora).
 - [ ] Anteprima del link su WhatsApp o Facebook: compaiono titolo, descrizione e foto.
 
+## Motori di ricerca
+
+- [x] Google Search Console: proprietà di tipo Dominio `calabrialenta.com`, sitemap inviata (`https://calabrialenta.com/sitemap-index.xml`) il 2026-10-02.
+- [x] Bing Webmaster Tools: importato da Search Console (copre anche Yahoo e DuckDuckGo).
+- [ ] Cloudflare → Caching → Configuration → **Crawler Hints** attivo (avvisa i motori a ogni aggiornamento).
+- [ ] Controllare dopo qualche giorno in Search Console: pagine indicizzate e prime ricerche.
+
 ## Possibili rifiniture
 
 - [ ] Reindirizzare `www.calabrialenta.com` su `calabrialenta.com` (Cloudflare → Regole → Redirect Rules), per avere un solo indirizzo.
