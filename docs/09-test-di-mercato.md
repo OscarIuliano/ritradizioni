@@ -1,5 +1,7 @@
 # Test di mercato
 
+**Inizio: 2026-10-02 (sito online). Fine prevista: 2026-11-13.**
+
 Per **6 settimane** il portale resta online con un dominio proprio e raccoglie richieste di informazioni. Non si vende né si incassa nulla: si misura l'interesse e si parla con chi scrive.
 
 ## Obiettivi

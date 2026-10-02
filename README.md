@@ -22,4 +22,4 @@ Ogni soggiorno ha 3 esperienze garantite, 1 esperienza di stagione e 1 giornata 
 
 ## Stato
 
-Prima fase: verificare l'interesse con un portale vetrina che raccoglie contatti. Il sito è in [`site/`](site/) (Astro); le modifiche richieste si raccolgono in [`modifiche/`](modifiche/).
+**Online su https://calabrialenta.com** dal 2 ottobre 2026. Prima fase: verificare l'interesse con un portale vetrina che raccoglie contatti (test di 6 settimane). Il sito è in [`site/`](site/) (Astro); le modifiche richieste si raccolgono in [`modifiche/`](modifiche/).

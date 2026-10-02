@@ -1,5 +1,7 @@
 # Messa online
 
+**Online dal 2026-10-02 su https://calabrialenta.com** (progetto Cloudflare Pages `ritradizioni`, indirizzo tecnico https://ritradizioni.pages.dev).
+
 Guida passo passo per pubblicare il portale. Gli account vanno creati **a nome del titolare** (Oscar Iuliano). Il codice è già pronto: mancano solo due valori in `site/src/config/site.ts`, che si ottengono durante questi passi.
 
 Finché quei valori sono vuoti, la build di pubblicazione si ferma con un errore: il sito non può uscire senza dominio e senza modulo funzionante.
@@ -17,11 +19,10 @@ Nome scelto: **Calabria Lenta**.
 
 ## 2. Cloudflare: hosting
 
-- [ ] Creare un account su [dash.cloudflare.com](https://dash.cloudflare.com) con l'email del titolare.
-- [ ] Aggiungere il dominio all'account (se non è stato comprato su Cloudflare).
-- [ ] Andare in **Workers & Pages → Crea → Pages → Collega a Git** e autorizzare l'accesso a GitHub.
-- [ ] Scegliere il repository `OscarIuliano/ritradizioni`.
-- [ ] Impostazioni di build:
+- [x] Creare un account su [dash.cloudflare.com](https://dash.cloudflare.com) con l'email del titolare.
+- [x] Andare in **Workers & Pages → Crea → Pages → Collega a Git** e autorizzare l'accesso a GitHub.
+- [x] Scegliere il repository `OscarIuliano/ritradizioni`.
+- [x] Impostazioni di build:
 
 | Voce | Valore |
 | --- | --- |
@@ -31,8 +32,8 @@ Nome scelto: **Calabria Lenta**.
 | Build command | `npm run build` |
 | Build output directory | `dist` |
 
-- [ ] Salvare. Se l'indirizzo del modulo non è ancora in `site/src/config/site.ts`, la prima build **fallisce di proposito**: è normale.
-- [ ] Nel progetto, **Domini personalizzati → Aggiungi**: inserire `calabrialenta.com` e anche `www.calabrialenta.com`.
+- [x] Salvare. Se l'indirizzo del modulo non è ancora in `site/src/config/site.ts`, la prima build **fallisce di proposito**: è normale.
+- [x] Nel progetto, **Domini personalizzati → Aggiungi**: inserire `calabrialenta.com` e anche `www.calabrialenta.com`.
 
 ## 3. Cloudflare: statistiche
 
@@ -64,11 +65,15 @@ Al commit su GitHub, Cloudflare pubblica il sito da solo.
 
 ## 7. Verifiche dopo la pubblicazione
 
-- [ ] Il sito si apre su `https://www.<dominio>` e su `https://<dominio>`.
-- [ ] Versione inglese su `/en/`, note legali e privacy raggiungibili dal footer.
+- [x] Il sito si apre su `https://calabrialenta.com` e `https://www.calabrialenta.com`; `http` reindirizza a `https`.
+- [x] Versione inglese su `/en/`, note legali e privacy raggiungibili dal footer.
 - [ ] Invio di una richiesta di prova dal modulo: arriva l'email e compare il messaggio di conferma.
 - [ ] Web Analytics registra le prime visite (può servire qualche ora).
 - [ ] Anteprima del link su WhatsApp o Facebook: compaiono titolo, descrizione e foto.
+
+## Possibili rifiniture
+
+- [ ] Reindirizzare `www.calabrialenta.com` su `calabrialenta.com` (Cloudflare → Regole → Redirect Rules), per avere un solo indirizzo.
 
 ## Aggiornare il sito dopo il lancio
 
