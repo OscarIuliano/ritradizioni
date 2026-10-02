@@ -1,48 +1,46 @@
 # Scope
 
-Questo documento separa ciò che serve **al business** da ciò che serve **al software**, e definisce cosa entra nella prima versione (MVP).
+## Obiettivo della prima fase: capire se funziona
 
-**Vincolo principale: lancio entro inizio dicembre 2026** (circa 8 settimane dal 2026-10-02), con 2 case e mercato tedesco. Tutto ciò che non serve a vendere e ospitare i primi gruppi viene rimandato.
+Prima di costruire prenotazioni, pagamenti o gestionali, bisogna **verificare che la proposta interessi**. La prima fase serve a raccogliere i primi contatti interessati, soprattutto dalla Germania.
 
-## Business: cosa serve per il primo ospite
+**Cosa si costruisce ora**: un portale vetrina accattivante che mostra in modo semplice cosa offriamo e raccoglie le richieste di chi è interessato. Dettagli in [Portale](06-portale.md).
+
+**Vincolo di tempo**: online entro inizio dicembre 2026, prima se possibile.
+
+## Come misuriamo se funziona
+
+| Indicatore | Cosa ci dice |
+| --- | --- |
+| Visite al portale | Se la comunicazione arriva alle persone giuste |
+| Richieste di informazioni ricevute | Interesse reale per la proposta |
+| Periodi e esperienze più richiesti | Quali stagioni e attività attirano di più |
+| Richieste che diventano soggiorni | Se la proposta regge anche su prezzo e dettagli |
+
+Gli obiettivi numerici (es. quante richieste in 3 mesi) sono da fissare.
+
+## Business: cosa serve in questa fase
 
 - [x] Case disponibili: 2 case, 2–3 posti letto ciascuna (fino a 4 con bambini)
 - [x] Gestione ospiti sul posto: persone del luogo
-- [ ] Case in regola per l'affitto (CIN, comunicazione alloggiati, tassa di soggiorno)
-- [ ] Primo pacchetto invernale completo, con persone e produttori confermati
-- [ ] Prezzo definito e sostenibile
-- [ ] Forma legale per vendere il pacchetto chiarita (vedi [domande aperte](05-domande-aperte.md))
-- [ ] Un modo per farsi trovare in Germania e farsi pagare
-- [ ] Foto e video delle case e delle attività
+- [x] Formula del pacchetto: 3 esperienze garantite, 1 di stagione, 1 giornata libera
+- [ ] Le 3 esperienze garantite definite
+- [ ] Prezzo indicativo da mostrare sul portale (anche "a partire da")
+- [ ] Foto e video delle case, del paese e delle attività
+- [ ] Testi in tedesco e inglese
+- [ ] Chi risponde alle richieste, in che lingua e in quanto tempo
 
-## Piano a 8 settimane (indicativo)
+## Cosa serve prima di accettare il primo pagamento
 
-| Settimane | Business | Software |
-| --- | --- | --- |
-| 1–2 | Consulenza legale/fiscale, conferma produttori, calcolo prezzo | Scelta tecnologia, struttura del sito |
-| 3–4 | Case in regola, foto e testi, traduzione in tedesco | Sito vetrina DE/EN con modulo di richiesta |
-| 5–6 | Contatto con i primi potenziali ospiti in Germania | Pubblicazione del sito, eventuale pagamento online |
-| 7–8 | Primi ospiti di prova, raccolta feedback | Correzioni in base al feedback |
+Non blocca il portale, ma va chiarito prima di vendere davvero:
 
-## Software: MVP
-
-Obiettivo: **vendere i primi pacchetti** con il minimo sforzo tecnico. Con 2 case e pochi ospiti, prenotazioni e calendario si possono gestire a mano all'inizio.
-
-| Funzione | MVP | Dopo |
-| --- | --- | --- |
-| Sito vetrina con pacchetti, foto, programma | Sì | |
-| Lingue: tedesco e inglese | Sì | Italiano, altre lingue |
-| Modulo di richiesta di prenotazione | Sì | |
-| Date disponibili mostrate sul sito | Elenco semplice | Calendario automatico |
-| Pagamento online (acconto o totale) | Da decidere, dipende dalla forma legale | |
-| Area admin per gestire case, esperienze, date | | Sì |
-| Area ospite (programma, info pratiche) | | Sì |
-| Gestione partner (produttori, guide) | | Sì |
-| Blog / storie delle tradizioni (SEO) | | Sì |
+- Forma legale per vendere il pacchetto (vedi [domande aperte](05-domande-aperte.md)).
+- Case in regola per l'affitto (CIN, comunicazione alloggiati, tassa di soggiorno).
 
 ## Fuori scope (per ora)
 
+- Vendita di voli o trasporti: li organizzano gli ospiti.
+- Prenotazione e pagamento online.
+- Area admin, area ospite, gestione dei partner.
 - App mobile nativa.
-- Marketplace aperto a più territori.
-- Pacchetti personalizzabili componendo singole esperienze.
-- Altri mercati oltre la Germania.
+- Altri mercati oltre la Germania (l'inglese copre comunque altri visitatori).

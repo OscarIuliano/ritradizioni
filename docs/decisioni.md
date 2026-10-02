@@ -10,3 +10,6 @@
 | 2026-10-02 | Gli ospiti sono gestiti sul posto da persone del luogo | Rete locale già disponibile |
 | 2026-10-02 | Lancio entro 2 mesi, cioè entro inizio dicembre 2026 | Partire subito e imparare dai primi ospiti |
 | 2026-10-02 | Primo mercato estero: Germania | Scelta del fondatore; da verificare collegamenti aerei e domanda |
+| 2026-10-02 | Formula: 5 giorni = 3 esperienze garantite + 1 esperienza di stagione + 1 giornata libera | Struttura semplice da comunicare, varia solo la parte stagionale |
+| 2026-10-02 | Voli e viaggio non inclusi: li organizzano gli ospiti | Offerta limitata a soggiorno ed esperienze |
+| 2026-10-02 | Prima fase = validazione: portale vetrina che raccoglie contatti interessati | Capire se la proposta funziona prima di costruire prenotazioni e pagamenti |

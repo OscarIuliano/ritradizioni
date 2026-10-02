@@ -6,7 +6,7 @@ Si parte dalla **Germania**. Il Nord Italia e gli altri Paesi esteri restano mer
 
 Cosa comporta:
 - **Lingua**: sito, descrizioni e comunicazione in **tedesco** come prima lingua, con l'inglese come seconda.
-- **Collegamenti aerei**: verificare quali voli diretti Germania – Lamezia Terme sono attivi nei mesi del lancio (dicembre – inverno).
+- **Collegamenti aerei**: i voli li organizzano gli ospiti, ma il portale deve spiegare come arrivare. Verificare quali voli diretti Germania – Lamezia Terme esistono nelle varie stagioni.
 - **Pagamenti**: metodi diffusi in Germania (carta, PayPal, bonifico SEPA).
 - **Tutela del cliente**: in Germania il "Pauschalreise" (pacchetto turistico) è un concetto molto noto e i clienti si aspettano le relative garanzie. Questo rafforza la necessità di chiarire la forma legale (vedi [domande aperte](05-domande-aperte.md)).
 - **Primi ospiti**: contatti personali in Germania, comunità calabresi e italiane in Germania, gruppi e community di slow travel e food.

@@ -19,7 +19,7 @@ Far vivere per qualche giorno la vita e le tradizioni di un paese calabrese a ch
 
 ## Cosa offriamo
 
-Un **pacchetto di 5 giorni a prezzo fisso** che include alloggio e un insieme di esperienze legate alla stagione: un'attività tradizionale principale (es. la raccolta delle olive), un'esperienza culinaria, una passeggiata in un luogo speciale e altro.
+Un **pacchetto di 5 giorni a prezzo fisso** con alloggio incluso: 3 esperienze garantite (es. cucina tradizionale, passeggiata in un luogo speciale), 1 esperienza legata alla stagione (es. una raccolta per fare la marmellata) e 1 giornata libera. Il viaggio lo organizzano gli ospiti.
 
 ## Valore
 
