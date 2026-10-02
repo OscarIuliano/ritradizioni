@@ -155,7 +155,6 @@ export const it: Content = {
       'Le tre esperienze garantite',
       'L’esperienza di stagione',
       'I pasti legati alle esperienze',
-      'I nostri consigli per la giornata libera',
       'Un dono fatto in casa alla partenza',
     ],
     excludedTitle: 'Da organizzare a parte',

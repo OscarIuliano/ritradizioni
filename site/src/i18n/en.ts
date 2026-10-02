@@ -155,7 +155,6 @@ export const en: Content = {
       'The three signature experiences',
       'The seasonal experience',
       'The meals that come with the experiences',
-      'Our tips for your free day',
       'A homemade gift when you leave',
     ],
     excludedTitle: 'Arranged separately',
