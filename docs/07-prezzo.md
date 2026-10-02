@@ -108,11 +108,54 @@ Utile per dare un valore alle singole esperienze: una lezione di cucina con past
 
 Se il soggiorno base dura 4 notti, la fascia rustica porta a circa **600–850 € a persona** in camera doppia. Con meno servizi inclusi, la parte bassa della fascia è la più realistica. Il prezzo vero esce solo dal calcolo dei costi qui sopra: se i costi più il margine superano questa fascia, va rivisto cosa includere.
 
+## Proposta di struttura (bozza da confermare)
+
+Obiettivo indicato: **circa 100 € a persona per notte**, anche meno per partire. È meno della metà del benchmark di Maida (≈ 215 €): coerente con un'offerta diversa, più semplice e senza intermediari.
+
+### Perché prezzare "a notte"
+
+Il soggiorno non ha una durata fissa. Un prezzo a persona per notte si adatta a qualsiasi durata ed è facile da confrontare. Serve però una **durata minima**, perché le 4 esperienze incluse si pagano comunque.
+
+### Le componenti
+
+| Componente | Proposta | Note |
+| --- | --- | --- |
+| Soggiorno base | 100 € a persona a notte, minimo 4 notti (= 400 € a persona) | Include alloggio, 3 esperienze garantite, 1 di stagione, i pasti legati alle esperienze |
+| Notti in più | 50–60 € a persona a notte | Solo alloggio: le esperienze non si ripetono |
+| Esperienze extra | Prezzo singolo, es. 30–80 € a persona | Vino, giornata accompagnata, cena a casa, transfer |
+| Bambini | Es. gratis sotto i 3 anni, −50% fino a 12 | Da decidere |
+| Persona singola | Supplemento, oppure prezzo minimo a casa | La casa costa uguale anche con una persona |
+
+### Prezzo di lancio
+
+Per partire, un prezzo più basso **dichiarato come tale**, non uno sconto permanente:
+
+- **Prime partenze**: es. 85 € a persona a notte (−15%) per i primi 5–10 soggiorni o per la prima stagione.
+- In cambio chiediamo ai primi ospiti un **feedback, foto e una recensione**: valgono più dello sconto.
+- Sul portale: "Prime partenze: da 85 € a persona a notte" e poi si torna al prezzo pieno senza dover giustificare un aumento.
+
+### Il vincolo sui costi
+
+Con la formula sopra (margine 25%, commissioni 3%, divisore 0,72):
+
+| Prezzo a persona a notte | Costi massimi a persona a notte | Costi massimi per una coppia, 4 notti |
+| --- | --- | --- |
+| 100 € | 72 € | 576 € |
+| 85 € (lancio) | 61 € | 490 € |
+
+In pratica: **alloggio, compensi delle persone, materie prime, pasti inclusi e prodotti da portare a casa** di un soggiorno di coppia di 4 notti devono stare sotto i 576 € a prezzo pieno, sotto i 490 € al prezzo di lancio. È il primo controllo da fare quando arrivano i costi reali. Con il prezzo di lancio si può anche accettare un margine più basso, sapendo che è temporaneo.
+
+### Come mostrarlo sul portale
+
+- "Da 100 € a persona a notte" (o "Prime partenze da 85 €"), vicino alla formula del soggiorno.
+- Domanda frequente "Quanto costa?" con un esempio: "una coppia, 4 notti: 800 €, esperienze incluse".
+- Esperienze extra con il loro prezzo, nella sezione del riquadro "E se vuoi, di più".
+
 ## Prossimi passi
 
 - [ ] Raccogliere i costi reali dalle persone del posto e dai produttori
-- [ ] Decidere l'unità di prezzo (a persona o a casa)
-- [ ] Decidere il margine obiettivo
+- [ ] Confermare la struttura proposta (a persona a notte, minimo di notti, notti extra, bambini, singola)
+- [ ] Decidere il margine obiettivo e il prezzo di lancio
 - [x] Cercare offerte simili come confronto (vedi sopra)
 - [ ] Calcolare il prezzo di partenza e metterlo sul portale
 - [ ] Verificare il prezzo con i primi contatti interessati

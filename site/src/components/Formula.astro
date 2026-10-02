@@ -130,9 +130,26 @@ const kinds = Object.keys(f.kinds) as DayKind[];
     margin-bottom: 0.9rem;
   }
   .extra {
-    background: transparent;
+    background: #f8e4d8;
+    color: var(--terracotta-dark);
+    border: 2px dashed var(--terracotta);
+  }
+  .extra .day-num {
+    display: grid;
+    place-items: center;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    background: var(--terracotta);
+    color: #fff;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    line-height: 1;
+    opacity: 1;
+  }
+  .extra .day-kind {
     color: var(--ink);
-    border: 2px dashed var(--line);
+    opacity: 1;
   }
   .note {
     margin-top: 1.5rem;

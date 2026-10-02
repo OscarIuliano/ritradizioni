@@ -14,3 +14,4 @@
 - [x] Autunno: "Olive, castagne e funghi".
 - [x] Estate: "L'orto d'estate" (pomodori, peperoncini, melanzane e molto altro), si porta a casa "Salsa e conserve fatte in casa".
 - [x] Prezzo: avviata la lavorazione parallela in [`docs/07-prezzo.md`](../docs/07-prezzo.md) (metodo, formula, voci di costo da compilare, scenari).
+- [x] "E se vuoi, di più" più visibile: sfondo e bordo color terracotta, icona "+" in evidenza.

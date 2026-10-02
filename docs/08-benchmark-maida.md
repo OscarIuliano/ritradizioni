@@ -55,7 +55,7 @@ Trasporti, visite guidate, chef stellato, sommelier e quasi tutti i pasti. È qu
 ## Cosa significa per il prezzo
 
 - A parità di notti dobbiamo stare **sotto i ≈ 215 € a persona per notte** di Maida, perché includiamo meno servizi e l'ospite paga l'auto.
-- Un obiettivo ragionevole da verificare con i costi è **≈ 150–190 € a persona per notte**. Esempi: 4 notti ≈ 600–760 €, 6 notti ≈ 900–1.140 €.
+- Restiamo volutamente diversi da Maida. L'obiettivo scelto è **circa 100 € a persona per notte**, anche meno per il lancio (vedi la [proposta di struttura](07-prezzo.md#proposta-di-struttura-bozza-da-confermare)).
 - Il loro prezzo comprende anche il guadagno dell'agenzia che lo vende; vendendo direttamente, a parità di prezzo il nostro margine è più alto.
 - Il prezzo finale resta quello che esce dal [calcolo dei costi](07-prezzo.md); il benchmark serve solo a capire se siamo nella fascia giusta.
 
