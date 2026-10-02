@@ -99,7 +99,7 @@ Utile per dare un valore alle singole esperienze: una lezione di cucina con past
 ### Cosa ci dice
 
 - **Fascia rustica (agriturismo, pasti semplici): circa 160–215 € a persona per notte.** È il segmento più vicino al nostro.
-- **L'offerta più simile è a pochi km da noi**: il tour di Maida costa circa 1.290 € per 6 notti, ma include transfer, visite guidate e corsi con uno chef. Noi non includiamo auto, transfer e molti pasti, quindi possiamo stare **sotto** quella cifra a parità di notti.
+- **L'offerta più simile è a pochi km da noi** ([benchmark dettagliato](08-benchmark-maida.md)): il tour di Maida costa circa 1.290 € per 6 notti, ma include transfer, visite guidate e corsi con uno chef. Noi non includiamo auto, transfer e molti pasti, quindi possiamo stare **sotto** quella cifra a parità di notti.
 - **Fascia alta (hotel, tutto incluso): 340–640 € a notte.** Non è il nostro posizionamento con case semplici.
 - **Il prodotto da portare a casa è un punto di forza**: gli altri regalano da 500 ml a 1 litro d'olio. "Qualche litro" a prezzo vantaggioso è un vantaggio da comunicare.
 - **Come prezzano gli altri**: a persona in camera doppia, con supplemento per la singola (da 100 GBP a 350 USD), spesso minimo 2 persone e acconto alla prenotazione. Alcune offerte di raccolta sono **esaurite**: segnale che la domanda esiste.

@@ -23,3 +23,4 @@
 | 2026-10-02 | Pasti: alcuni compresi nelle esperienze, gli altri a casa o in trattoria | Flessibilità e costi contenuti |
 | 2026-10-02 | Foto Unsplash attuali accettate anche per la messa online | Da sostituire con foto reali più avanti |
 | 2026-10-02 | Prezzo: lavorazione parallela con calcolo costi e margine | Serve un prezzo di partenza sostenibile |
+| 2026-10-02 | Benchmark di riferimento: tour di Maida (≈ 1.290 € / 6 notti); obiettivo ≈ 150–190 € a persona per notte, da verificare con i costi | Offerta più simile in zona, con più servizi inclusi |

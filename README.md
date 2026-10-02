@@ -15,6 +15,7 @@ Ogni soggiorno ha 3 esperienze garantite, 1 esperienza di stagione e 1 giornata 
 | [Domande aperte](docs/05-domande-aperte.md) | Punti da chiarire prima di decidere |
 | [Portale](docs/06-portale.md) | Il sito vetrina della prima fase: pagine, modulo di richiesta, requisiti |
 | [Prezzo](docs/07-prezzo.md) | Metodo e voci di costo per calcolare il prezzo di partenza |
+| [Benchmark Maida](docs/08-benchmark-maida.md) | Confronto voce per voce con l'offerta più simile in zona |
 | [Decisioni](docs/decisioni.md) | Registro delle decisioni prese |
 
 ## Stato
