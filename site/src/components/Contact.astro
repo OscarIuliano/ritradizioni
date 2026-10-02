@@ -11,7 +11,7 @@ const { t } = Astro.props;
 const c = t.contact;
 ---
 
-<section class="section" id="contatti">
+<section class="section alt" id="contatti">
   <div class="wrap grid">
     <div class="intro">
       <h2>{c.title}</h2>
@@ -89,6 +89,9 @@ const c = t.contact;
 </script>
 
 <style>
+  .alt {
+    background: var(--sand);
+  }
   .grid {
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;

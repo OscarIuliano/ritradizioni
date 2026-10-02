@@ -1,0 +1,149 @@
+---
+import type { Content } from '../i18n/types';
+
+interface Props {
+  t: Content;
+}
+
+const { t } = Astro.props;
+const p = t.pricing;
+---
+
+<section class="section alt" id="prezzi">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>{p.title}</h2>
+      <p>{p.intro}</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>{p.includedTitle}</h3>
+        <ul class="list included">
+          {p.included.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>{p.excludedTitle}</h3>
+        <ul class="list excluded">
+          {p.excluded.map((item) => <li>{item}</li>)}
+        </ul>
+      </div>
+
+      <div class="card price">
+        <span class="eyebrow">{p.label}</span>
+        <p class="amount">
+          <span>{p.from}</span>
+          <strong>{p.amount}</strong>
+        </p>
+        <p class="unit">{p.unit}</p>
+        <p class="detail">{p.example}</p>
+        <p class="detail">{p.children}</p>
+        <a class="btn btn-primary" href="#contatti">{p.cta}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .alt {
+    background: var(--sand);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .card {
+    padding: 1.6rem 1.7rem;
+    background: var(--paper);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  .card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .list li {
+    position: relative;
+    padding-left: 1.9rem;
+  }
+  .list li::before {
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+    display: grid;
+    place-items: center;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .included li::before {
+    content: '✓';
+    background: var(--olive);
+    color: #fff;
+  }
+  .excluded li {
+    color: var(--muted);
+  }
+  .excluded li::before {
+    content: '–';
+    background: var(--sand);
+    color: var(--muted);
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid var(--terracotta);
+  }
+  .eyebrow {
+    margin-bottom: 0.4rem;
+  }
+  .amount {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 0;
+    color: var(--muted);
+  }
+  .amount strong {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--ink);
+  }
+  .unit {
+    margin: 0 0 0.9rem;
+    font-weight: 600;
+  }
+  .detail {
+    margin: 0 0 0.4rem;
+    font-size: 0.92rem;
+    color: var(--muted);
+  }
+  .price .btn {
+    align-self: flex-start;
+    margin-top: auto;
+  }
+  .price .detail:last-of-type {
+    margin-bottom: 1.2rem;
+  }
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

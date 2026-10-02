@@ -20,6 +20,7 @@ Una persona in Germania, probabilmente da smartphone, che non conosce la Calabri
 | La settimana | Le 3 esperienze garantite, l'esperienza di stagione, la giornata libera, un esempio di programma giorno per giorno |
 | Calendario delle stagioni | Cosa si fa in ogni periodo dell'anno e cosa si porta a casa |
 | Dove siamo | Mappa, tra due mari, come arrivare (aeroporto di Lamezia Terme, treno) |
+| Cosa è incluso e quanto costa | Cosa è incluso, cosa si organizza a parte, prezzo di partenza con un esempio |
 | Le persone | Chi accoglie e chi guida le esperienze: volti e storie |
 | Contatti / Richiesta | Modulo di richiesta |
 | Note legali | Impressum, privacy (GDPR), cookie |
