@@ -28,9 +28,9 @@ L'alloggio in una delle case è incluso. **Viaggio, voli e auto a noleggio sono 
 
 ### L'esperienza di stagione (ipotesi da validare)
 
-Le attività e i periodi sotto sono **ipotesi** da verificare con le persone del posto. Ogni esperienza di stagione si conclude, quando possibile, con un prodotto da portare a casa.
+Le attività e i periodi sotto sono **ipotesi** da verificare con le persone del posto. Ogni esperienza di stagione si conclude, quando possibile, con un **dono fatto in casa**: un po' di quello che l'ospite ha preparato. Non è in vendita e non ha etichette (non siamo un'azienda che certifica prodotti); la quantità la decidiamo noi.
 
-| Periodo | Esperienza di stagione | Prodotto da portare a casa |
+| Periodo | Esperienza di stagione | Dono fatto in casa |
 | --- | --- | --- |
 | Ottobre – Dicembre | Raccolta delle olive, frantoio; castagne e funghi | Olio extravergine |
 | Dicembre – Febbraio | Raccolta degli agrumi, marmellata | Vasetti di marmellata |
@@ -45,7 +45,7 @@ Le attività e i periodi sotto sono **ipotesi** da verificare con le persone del
 2. **Giorno 2**: esperienza di stagione: raccolta degli agrumi e marmellata.
 3. **Giorno 3**: passeggiata in un luogo speciale.
 4. **Giorno 4**: giornata libera (es. il mare Tirreno o Ionio, a breve distanza).
-5. **Giorno 5**: terza esperienza garantita, consegna dei prodotti.
+5. **Giorno 5**: terza esperienza garantita, consegna del dono.
 
 L'ordine dei giorni può cambiare in base al meteo e alla disponibilità delle persone del posto.
 

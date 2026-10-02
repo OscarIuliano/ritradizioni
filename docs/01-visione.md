@@ -25,7 +25,7 @@ Un **pacchetto di 5 giorni a prezzo fisso** con alloggio incluso: 3 esperienze g
 
 | Per chi | Cosa ottiene |
 | --- | --- |
-| Ospite | Esperienza autentica e organizzata, prodotti da portare a casa (es. olio a prezzo vantaggioso), contatto vero con le persone |
+| Ospite | Esperienza autentica e organizzata, un dono fatto in casa alla partenza (es. un po' d'olio), contatto vero con le persone |
 | Proprietari delle case | Reddito da immobili oggi inutilizzati |
 | Produttori e persone del posto | Reddito aggiuntivo, valorizzazione del loro lavoro e dei prodotti |
 | Territorio | Turismo distribuito su più stagioni e fuori dalle rotte classiche |

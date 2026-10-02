@@ -19,7 +19,7 @@ Da verificare con un professionista:
 - **Forma legale per vendere il pacchetto**: in Italia vendere alloggio e servizi turistici insieme come "pacchetto" può richiedere di essere un'agenzia di viaggi / tour operator (Codice del Turismo e direttiva UE sui pacchetti turistici). Alternative: appoggiarsi a un'agenzia o tour operator esistente, oppure vendere alloggio ed esperienze separatamente.
 - **Affitti**: codice identificativo nazionale (CIN), comunicazione degli alloggiati, tassa di soggiorno.
 - **Attività agricole con ospiti**: assicurazione, responsabilità in caso di infortunio.
-- **Alimenti**: regole per dare o vendere olio, marmellata e altri prodotti fatti in casa.
+- **Alimenti**: i prodotti fatti in casa sono solo un dono, non in vendita. Verificare comunque se ci sono regole da rispettare per regalarli agli ospiti.
 
 ## Offerta e operatività
 
@@ -27,7 +27,7 @@ Da verificare con un professionista:
 - Si vende a persona o a casa? Gruppo minimo?
 - Serve un transfer dall'aeroporto o gli ospiti noleggiano un'auto?
 - Le persone del posto che gestiscono gli ospiti parlano tedesco o inglese?
-- Come portano a casa i prodotti (limiti sui liquidi nel bagaglio a mano, spedizione)?
+- Come portano a casa il dono (limiti sui liquidi nel bagaglio a mano, bottiglie adatte al viaggio)?
 
 ## Mercato
 

@@ -27,3 +27,4 @@
 | 2026-10-02 | Prezzo obiettivo: circa 100 € a persona per notte, anche meno per il lancio | Offerta più semplice, vendita diretta; da verificare con i costi |
 | 2026-10-02 | Bambini: gratis sotto i 3 anni, metà prezzo da 3 a 13 anni | Scelta del fondatore |
 | 2026-10-02 | Minimo 4 notti; prezzo di lancio 85 € a persona a notte, mostrato sul portale come "a partire da" | Prezzo pieno da confermare dopo il calcolo dei costi |
+| 2026-10-02 | I prodotti fatti in casa sono un dono alla partenza, non in vendita; quantità decisa da noi | Non siamo un'azienda che certifica prodotti: niente etichette né vendita |

@@ -19,7 +19,7 @@ export const en: Content = {
   hero: {
     eyebrow: 'Calabria, Italy · between two seas',
     title: 'Live Calabria like the people who call it home',
-    text: 'Pick olives, cook with the people who keep the family recipes, walk where tourists never go. Stay in a house in the countryside and take home the olive oil, sauce or jam you made yourself.',
+    text: 'Pick olives, cook with the people who keep the family recipes, walk where tourists never go. Stay in a house in the countryside and leave with a gift: some of what we made together.',
     primary: 'See your stay',
     secondary: 'Ask for details',
     image: 'heroUliveto',
@@ -67,8 +67,8 @@ export const en: Content = {
   },
   seasons: {
     title: 'Every season has its own experience',
-    intro: 'The seasonal experience follows the farming calendar. Pick a season to see what you will do and what you will take home.',
-    takeHomeLabel: 'You take home',
+    intro: 'The seasonal experience follows the farming calendar. Pick a season to see what you will do and what we give you when you leave.',
+    takeHomeLabel: 'Our gift to you',
     note: 'Periods are approximate and depend on the year and the weather.',
     items: [
       {
@@ -77,7 +77,7 @@ export const en: Content = {
         months: 'October – December',
         title: 'Olives, chestnuts and mushrooms',
         text: 'Gather olives, bring them to the mill and taste the fresh oil on warm bread. Meanwhile, the woods are full of chestnuts and mushrooms.',
-        takeHome: 'New-season extra virgin olive oil',
+        takeHome: 'Some new-season olive oil',
         image: 'raccoltaOlive',
       },
       {
@@ -86,7 +86,7 @@ export const en: Content = {
         months: 'December – February',
         title: 'Citrus and marmalade',
         text: 'Pick oranges and mandarins straight from the trees and make marmalade the old way, slowly, over the fire.',
-        takeHome: 'Jars of marmalade',
+        takeHome: 'A jar of marmalade',
         image: 'arance',
       },
       {
@@ -104,14 +104,14 @@ export const en: Content = {
         months: 'July – September',
         title: 'The summer garden',
         text: 'The vegetable garden is at its best: tomatoes, chilli peppers, aubergines and much more. Pick them and make sauce the same day, all together, as every Calabrian family does in August.',
-        takeHome: 'Homemade sauce and preserves',
+        takeHome: 'Some homemade sauce and preserves',
         image: 'salsaBarattoli',
       },
     ],
   },
   pantry: {
     title: 'A souvenir you can eat',
-    text: 'At the end of your stay you take home what you made with your own hands. The trip goes on at your table, every time you open the pantry.',
+    text: 'When you leave, we give you some of what you made with your own hands. No labels, just homemade food: the trip goes on at your table.',
     image: 'olio',
   },
   freeDay: {
@@ -156,6 +156,7 @@ export const en: Content = {
       'The seasonal experience',
       'The meals that come with the experiences',
       'Our tips for your free day',
+      'A homemade gift when you leave',
     ],
     excludedTitle: 'Arranged separately',
     excluded: [

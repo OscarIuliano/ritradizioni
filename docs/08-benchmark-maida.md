@@ -31,7 +31,7 @@ Esclusi: voli, mance, tassa di soggiorno, pasti e bevande non indicati. Disponib
 | Durata | 6 notti, 5 giorni pieni | Soggiorno base flessibile, allungabile | Più adattabile ai tempi dell'ospite |
 | Alloggio | Agriturismo | Casa indipendente semplice in campagna | Loro più servizi, noi più privacy e autonomia |
 | Raccolta | Mezza giornata di olive, proposta tutto l'anno | Esperienza di stagione vera, cambia col calendario | La nostra stagionalità è un punto di forza da comunicare |
-| Prodotto da portare a casa | Non indicato | Olio o conserve, qualche litro a prezzo vantaggioso | Nostro vantaggio chiaro |
+| Prodotto da portare a casa | Non indicato | Un dono fatto in casa (olio o conserve), non in vendita | Nostro vantaggio chiaro |
 | Cucina | 1 lezione + show cooking di uno chef stellato | "In cucina con noi" con persone del posto | Loro più prestigio, noi più autenticità |
 | Vino | Degustazione con sommelier | Non previsto | Possibile esperienza extra |
 | Visite | Cosenza, Tropea, Pizzo, Scolacium, guidate e con trasporto | Giornata libera con nostri consigli, auto propria | Loro più "tour", noi più libertà |

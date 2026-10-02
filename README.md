@@ -1,6 +1,6 @@
 # Riscopri Tradizioni
 
-Soggiorni in Calabria, tra Lamezia Terme e Pianopoli, per vivere le tradizioni del territorio insieme a chi le porta avanti: raccogliere le olive e portarsi a casa l'olio, fare la salsa con gli ortaggi dell'orto d'estate, cucinare piatti locali, camminare in posti che i turisti di solito non vedono.
+Soggiorni in Calabria, tra Lamezia Terme e Pianopoli, per vivere le tradizioni del territorio insieme a chi le porta avanti: raccogliere le olive e ricevere in dono un po' d'olio, fare la salsa con gli ortaggi dell'orto d'estate, cucinare piatti locali, camminare in posti che i turisti di solito non vedono.
 
 Ogni soggiorno ha 3 esperienze garantite, 1 esperienza di stagione e 1 giornata libera, e si può allungare con giorni ed esperienze extra. Gli ospiti alloggiano in case semplici in campagna.
 

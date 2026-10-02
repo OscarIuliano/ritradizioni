@@ -43,7 +43,7 @@ Da compilare. Indicare se il costo è per soggiorno, per persona o per notte.
 | Esperienza: passeggiata speciale | per soggiorno | | Compenso guida |
 | Esperienza: a casa del produttore | per persona | | Compenso + degustazione |
 | Esperienza di stagione | per persona | | Compenso + materie prime |
-| Prodotti da portare a casa | per persona | | Olio, salsa, conserve |
+| Dono fatto in casa | per soggiorno | | Olio, salsa, conserve: un regalo, non in vendita |
 | Pasti inclusi | per persona | | Solo quelli compresi nelle esperienze |
 | Accoglienza e assistenza | per soggiorno | | Tempo delle persone del posto |
 | Tassa di soggiorno | per persona per notte | | Si incassa e si versa al Comune |
@@ -101,7 +101,7 @@ Utile per dare un valore alle singole esperienze: una lezione di cucina con past
 - **Fascia rustica (agriturismo, pasti semplici): circa 160–215 € a persona per notte.** È il segmento più vicino al nostro.
 - **L'offerta più simile è a pochi km da noi** ([benchmark dettagliato](08-benchmark-maida.md)): il tour di Maida costa circa 1.290 € per 6 notti, ma include transfer, visite guidate e corsi con uno chef. Noi non includiamo auto, transfer e molti pasti, quindi possiamo stare **sotto** quella cifra a parità di notti.
 - **Fascia alta (hotel, tutto incluso): 340–640 € a notte.** Non è il nostro posizionamento con case semplici.
-- **Il prodotto da portare a casa è un punto di forza**: gli altri regalano da 500 ml a 1 litro d'olio. "Qualche litro" a prezzo vantaggioso è un vantaggio da comunicare.
+- **Il dono fatto in casa è un punto di forza**: gli altri regalano da 500 ml a 1 litro d'olio. Noi regaliamo un po' di quello che l'ospite ha preparato con le sue mani: non lo vendiamo e non ha etichette.
 - **Come prezzano gli altri**: a persona in camera doppia, con supplemento per la singola (da 100 GBP a 350 USD), spesso minimo 2 persone e acconto alla prenotazione. Alcune offerte di raccolta sono **esaurite**: segnale che la domanda esiste.
 
 ### Prima indicazione (da verificare con i costi)
@@ -143,7 +143,7 @@ Con la formula sopra (margine 25%, commissioni 3%, divisore 0,72):
 | 100 € | 72 € | 576 € |
 | 85 € (lancio) | 61 € | 490 € |
 
-In pratica: **alloggio, compensi delle persone, materie prime, pasti inclusi e prodotti da portare a casa** di un soggiorno di coppia di 4 notti devono stare sotto i 576 € a prezzo pieno, sotto i 490 € al prezzo di lancio. È il primo controllo da fare quando arrivano i costi reali. Con il prezzo di lancio si può anche accettare un margine più basso, sapendo che è temporaneo.
+In pratica: **alloggio, compensi delle persone, materie prime, pasti inclusi e dono fatto in casa** di un soggiorno di coppia di 4 notti devono stare sotto i 576 € a prezzo pieno, sotto i 490 € al prezzo di lancio. È il primo controllo da fare quando arrivano i costi reali. Con il prezzo di lancio si può anche accettare un margine più basso, sapendo che è temporaneo.
 
 ### Come mostrarlo sul portale
 

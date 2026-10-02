@@ -19,7 +19,7 @@ export const it: Content = {
   hero: {
     eyebrow: 'Calabria · tra il Tirreno e lo Ionio',
     title: 'Vivi la Calabria come chi ci abita',
-    text: 'Raccogli le olive, cucina con chi custodisce le ricette di famiglia, cammina dove i turisti non arrivano. Dormi in una casa in campagna e torni a casa con l’olio, la salsa o la marmellata che hai fatto tu.',
+    text: 'Raccogli le olive, cucina con chi custodisce le ricette di famiglia, cammina dove i turisti non arrivano. Dormi in una casa in campagna e alla partenza ricevi in dono un po’ di quello che avete preparato insieme.',
     primary: 'Scopri il soggiorno',
     secondary: 'Richiedi informazioni',
     image: 'heroUliveto',
@@ -67,8 +67,8 @@ export const it: Content = {
   },
   seasons: {
     title: 'Ogni stagione ha la sua esperienza',
-    intro: 'L’esperienza di stagione segue il calendario della campagna. Scegli il periodo e scopri cosa farai e cosa porterai a casa.',
-    takeHomeLabel: 'Ti porti a casa',
+    intro: 'L’esperienza di stagione segue il calendario della campagna. Scegli il periodo e scopri cosa farai e cosa ti regaliamo alla partenza.',
+    takeHomeLabel: 'Il nostro dono',
     note: 'Periodi indicativi: dipendono dall’annata e dal meteo.',
     items: [
       {
@@ -77,7 +77,7 @@ export const it: Content = {
         months: 'Ottobre – Dicembre',
         title: 'Olive, castagne e funghi',
         text: 'Si raccolgono le olive, si portano al frantoio e si assaggia l’olio appena fatto sul pane caldo. Nei boschi intanto è tempo di castagne e funghi.',
-        takeHome: 'Olio extravergine nuovo',
+        takeHome: 'Un po’ di olio nuovo',
         image: 'raccoltaOlive',
       },
       {
@@ -86,7 +86,7 @@ export const it: Content = {
         months: 'Dicembre – Febbraio',
         title: 'Agrumi e marmellata',
         text: 'Si colgono arance e mandarini dagli alberi e si prepara la marmellata come si faceva una volta, piano, sul fuoco.',
-        takeHome: 'Vasetti di marmellata',
+        takeHome: 'Un vasetto di marmellata',
         image: 'arance',
       },
       {
@@ -104,14 +104,14 @@ export const it: Content = {
         months: 'Luglio – Settembre',
         title: 'L’orto d’estate',
         text: 'L’orto dà il meglio di sé: pomodori, peperoncini, melanzane e molto altro. Si raccoglie e si prepara la salsa in giornata, tutti insieme, come d’agosto in ogni casa calabrese.',
-        takeHome: 'Salsa e conserve fatte in casa',
+        takeHome: 'Un po’ di salsa e conserve fatte in casa',
         image: 'salsaBarattoli',
       },
     ],
   },
   pantry: {
     title: 'Un ricordo che si mangia',
-    text: 'Alla fine del soggiorno porti a casa quello che hai preparato con le tue mani. Il viaggio continua a tavola, ogni volta che apri la dispensa.',
+    text: 'Alla partenza ti regaliamo un po’ di quello che hai preparato con le tue mani. Niente etichette, solo cose fatte in casa: il viaggio continua a tavola.',
     image: 'olio',
   },
   freeDay: {
@@ -156,6 +156,7 @@ export const it: Content = {
       'L’esperienza di stagione',
       'I pasti legati alle esperienze',
       'I nostri consigli per la giornata libera',
+      'Un dono fatto in casa alla partenza',
     ],
     excludedTitle: 'Da organizzare a parte',
     excluded: [

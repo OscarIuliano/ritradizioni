@@ -62,4 +62,4 @@ Le case non vengono mostrate come attrazione: sono case semplici in campagna che
 
 - Caldo, autentico, personale: persone vere, non foto da catalogo.
 - Poche parole, molte immagini.
-- Il prodotto da portare a casa (olio, marmellata, salsa) come simbolo del viaggio.
+- Il dono fatto in casa (olio, marmellata, salsa) come simbolo del viaggio.
