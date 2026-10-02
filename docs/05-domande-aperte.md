@@ -15,8 +15,8 @@ In ordine di urgenza.
 
 ## Prima di andare online
 
-- **Dati del titolare** per note legali e privacy: nome o ragione sociale, indirizzo, email (e P.IVA se c'è), da inserire in `site/src/config/legal.ts`.
-- **Revisione dei testi legali** (`/note-legali/`, `/privacy/`) da parte di un professionista: sono una base scritta da noi, non un parere legale.
+- **Dati del titolare** per note legali e privacy: nome o ragione sociale ed email (più sede e P.IVA se c'è), da inserire in `site/src/config/legal.ts`. Senza questi dati la build di produzione si ferma.
+- **Revisione dei testi legali** (`/note-legali/`, `/privacy/`) da parte di un professionista: sono il minimo richiesto, scritti da noi, non un parere legale. Le aggiunte previste sono in [Portale](06-portale.md#pagine-legali).
 
 ## Prima di accettare il primo pagamento
 

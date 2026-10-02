@@ -4,92 +4,50 @@ import { legal } from '../../config/legal';
 ---
 
 <LegalLayout lang="en" title="Privacy notice" alternates={{ it: '/privacy/', en: '/en/privacy/' }}>
-  <p>
-    This notice explains what personal data we collect through this website, why, and how we handle it, under
-    Regulation (EU) 2016/679 (GDPR).
-  </p>
+  <p>Information under Article 13 of Regulation (EU) 2016/679 (GDPR).</p>
 
   <h2>Data controller</h2>
   <p>
-    {legal.owner}, {legal.address}. For any privacy question, write to{' '}
-    <a href={`mailto:${legal.email}`}>{legal.email}</a>.
+    {legal.owner}{legal.address && `, ${legal.address}`}. Email: <a href={`mailto:${legal.email}`}>{legal.email}</a>.
   </p>
 
-  <h2>What data we collect</h2>
+  <h2>Data processed and purposes</h2>
   <ul>
     <li>
-      <strong>Request form</strong>: name, email, the period you are interested in, number of adults and children,
-      country, your message and your choice about updates.
+      <strong>Request form</strong>: name, email, period of interest, number of adults and children, country and
+      message. We use them to answer your request and send you the programme and a quote. Legal basis: pre-contractual
+      steps taken at your request (Art. 6(1)(b) GDPR).
     </li>
     <li>
-      <strong>Technical data</strong>: the provider hosting this website automatically logs data such as your IP address
-      and browser type, for security and to keep the site running.
+      <strong>News about upcoming seasons</strong>: your email, only if you tick the box. Legal basis: consent (Art.
+      6(1)(a) GDPR), which you can withdraw at any time without consequences.
     </li>
     <li>
-      <strong>Statistics</strong>: if enabled, we count visits in aggregate form, without cookies and without
-      identifying you.
+      <strong>Technical data</strong> (e.g. IP address), logged by the hosting provider to keep the website secure.
+      Legal basis: legitimate interest (Art. 6(1)(f) GDPR).
     </li>
   </ul>
+  <p>The required form fields are needed to answer you: without them we cannot follow up on your request.</p>
 
-  <h2>Why we use it</h2>
-  <ul>
-    <li>
-      To answer your request and send you the programme and a quote: a pre-contractual step you asked for (Art. 6(1)(b)
-      GDPR).
-    </li>
-    <li>
-      To send you news about upcoming seasons, only if you ticked the box: based on your consent (Art. 6(1)(a) GDPR),
-      which you can withdraw at any time.
-    </li>
-    <li>To keep the website secure: based on our legitimate interest (Art. 6(1)(f) GDPR).</li>
-  </ul>
+  <h2>Retention</h2>
+  <p>Request data is kept for up to 24 months from our last contact; data for news until you withdraw your consent.</p>
 
-  <h2>How long we keep it</h2>
-  <ul>
-    <li>
-      Information requests: up to 24 months from our last contact. If a request becomes a booking, data is kept for as
-      long as the law requires.
-    </li>
-    <li>Updates: until you withdraw your consent.</li>
-  </ul>
-
-  <h2>Who can see it</h2>
+  <h2>Recipients</h2>
   <p>
-    Only the people on our team who answer requests, and the technical providers that help us run the website, acting
-    as data processors. We never sell or share your data with anyone else.
-  </p>
-  {
-    legal.processors.length > 0 && (
-      <ul>
-        {legal.processors.map((p) => (
-          <li>
-            {p.name}: {p.role.en}
-          </li>
-        ))}
-      </ul>
-    )
-  }
-  <p>
-    Some providers may be based outside the European Union, for example in the United States. In that case data is
-    transferred with the safeguards required by the GDPR, such as the EU–US Data Privacy Framework or the European
-    Commission's standard contractual clauses.
+    Data is processed by the controller and by the website's technical providers (hosting and form handling), acting as
+    data processors. It is never sold or disclosed. If a provider is based outside the European Union, data is
+    transferred with the safeguards required by Articles 44 et seq. GDPR.
   </p>
 
   <h2>Cookies</h2>
-  <p>
-    This website does not use profiling cookies or third-party cookies. Fonts are hosted on the website itself, with no
-    connection to external services.
-  </p>
+  <p>This website does not use profiling cookies or third-party cookies.</p>
 
   <h2>Your rights</h2>
   <p>
-    You can ask at any time to access your data, correct it, delete it, restrict or object to its use, receive it in a
-    portable format, or withdraw your consent. Just write to{' '}
-    <a href={`mailto:${legal.email}`}>{legal.email}</a>.
-  </p>
-  <p>
-    If you believe your data is being handled unlawfully, you can lodge a complaint with the Italian data protection
-    authority, the <a href="https://www.garanteprivacy.it" rel="noopener">Garante per la protezione dei dati personali</a
-    >, or with the authority in your own country.
+    You can ask to access, correct, delete, restrict or port your data, or object to its processing, by writing to{' '}
+    <a href={`mailto:${legal.email}`}>{legal.email}</a>. You can also lodge a complaint with the Italian data protection
+    authority, the{' '}
+    <a href="https://www.garanteprivacy.it" rel="noopener">Garante per la protezione dei dati personali</a>, or with
+    the authority in your own country.
   </p>
 </LegalLayout>

@@ -16,4 +16,4 @@
 - [x] Prezzo: avviata la lavorazione parallela in [`docs/07-prezzo.md`](../docs/07-prezzo.md) (metodo, formula, voci di costo da compilare, scenari).
 - [x] "E se vuoi, di più" più visibile: sfondo e bordo color terracotta, icona "+" in evidenza.
 - [x] Tolto "Foto segnaposto da Unsplash" dal footer (la licenza Unsplash non richiede di citarle; restano citate nelle note legali).
-- [x] Pagine Note legali e Privacy in italiano e inglese, collegate dal footer e dalla casella privacy del modulo. Mancano i dati del titolare in `site/src/config/legal.ts`.
+- [x] Pagine Note legali e Privacy in italiano e inglese, collegate dal footer e dalla casella privacy del modulo: solo il minimo richiesto dalla legge, senza bozze visibili. Le aggiunte future sono elencate in `docs/06-portale.md`. Mancano nome ed email del titolare in `site/src/config/legal.ts`.

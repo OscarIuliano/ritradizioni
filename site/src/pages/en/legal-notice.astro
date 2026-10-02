@@ -4,36 +4,14 @@ import { legal } from '../../config/legal';
 ---
 
 <LegalLayout lang="en" title="Legal notice" alternates={{ it: '/note-legali/', en: '/en/legal-notice/' }}>
-  <h2>Who runs this website</h2>
+  <h2>Website owner</h2>
   <p>
-    {legal.owner}<br />
-    {legal.address}<br />
-    Email: <a href={`mailto:${legal.email}`}>{legal.email}</a>
+    {legal.owner}
+    {legal.address && <><br />{legal.address}</>}
     {legal.taxId && <><br />VAT / tax code: {legal.taxId}</>}
-  </p>
-
-  <h2>Content and prices</h2>
-  <p>
-    The information on this website presents our offer. Programmes, experiences and periods are indicative and may
-    change with the season, the weather and the availability of the people involved.
-  </p>
-  <p>
-    Prices shown are starting prices and are not a binding offer: the final price is confirmed in writing in the quote
-    we send in reply to each request.
-  </p>
-
-  <h2>Photos and text</h2>
-  <p>
-    The text is our own. Some photos come from <a href="https://unsplash.com" rel="noopener">Unsplash</a> and are used
-    under the Unsplash licence.
-  </p>
-
-  <h2>External links</h2>
-  <p>
-    This website may link to other websites. We are not responsible for their content or for how they handle personal
-    data.
+    <br />Email: <a href={`mailto:${legal.email}`}>{legal.email}</a>
   </p>
 
   <h2>Privacy</h2>
-  <p>To find out how we handle personal data, read our <a href="/en/privacy/">privacy notice</a>.</p>
+  <p>How we handle personal data is explained in our <a href="/en/privacy/">privacy notice</a>.</p>
 </LegalLayout>

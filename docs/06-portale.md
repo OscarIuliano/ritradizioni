@@ -54,6 +54,20 @@ Le richieste arrivano via email e vengono salvate in un elenco (es. un foglio di
 - **Costi bassi**: hosting gratuito o quasi.
 - **Pronto a crescere**: in futuro potrà ospitare prenotazioni, pagamenti e altro.
 
+## Pagine legali
+
+Online c'è il minimo richiesto dalla legge italiana: titolare e contatti nelle note legali, informativa art. 13 GDPR nella privacy. I dati del titolare stanno in `site/src/config/legal.ts`; finché mancano, la build di produzione si ferma.
+
+Da aggiungere più avanti:
+
+- [ ] Prezzi indicativi e non vincolanti: il prezzo vale solo con il preventivo scritto
+- [ ] Proprietà di testi e foto, licenza Unsplash per le foto attuali
+- [ ] Responsabilità per i link esterni
+- [ ] Nome dei fornitori (hosting, modulo) e dettagli sul trasferimento dei dati, quando attivati
+- [ ] Statistiche di visita, quando attivate
+- [ ] Condizioni di prenotazione e cancellazione, prima di accettare pagamenti
+- [ ] Revisione completa da parte di un professionista
+
 ## Alloggio
 
 Le case non vengono mostrate come attrazione: sono case semplici in campagna che garantiscono l'alloggio. Il portale le cita solo come parte inclusa nel pacchetto (formula e domande frequenti).

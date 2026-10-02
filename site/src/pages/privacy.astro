@@ -4,90 +4,54 @@ import { legal } from '../config/legal';
 ---
 
 <LegalLayout lang="it" title="Informativa privacy" alternates={{ it: '/privacy/', en: '/en/privacy/' }}>
-  <p>
-    Questa informativa spiega quali dati personali raccogliamo attraverso il sito, perché e come li trattiamo, ai sensi
-    del Regolamento (UE) 2016/679 (GDPR).
-  </p>
+  <p>Informativa ai sensi dell'art. 13 del Regolamento (UE) 2016/679 (GDPR).</p>
 
   <h2>Titolare del trattamento</h2>
   <p>
-    {legal.owner}, {legal.address}. Per qualsiasi domanda sulla privacy scrivi a{' '}
-    <a href={`mailto:${legal.email}`}>{legal.email}</a>.
+    {legal.owner}{legal.address && `, ${legal.address}`}. Email: <a href={`mailto:${legal.email}`}>{legal.email}</a>.
   </p>
 
-  <h2>Quali dati raccogliamo</h2>
+  <h2>Dati trattati e finalità</h2>
   <ul>
     <li>
-      <strong>Modulo di richiesta</strong>: nome, email, periodo che ti interessa, numero di adulti e bambini, paese di
-      provenienza, il messaggio che ci scrivi e la tua scelta sugli aggiornamenti.
+      <strong>Modulo di richiesta</strong>: nome, email, periodo di interesse, numero di adulti e bambini, paese e
+      messaggio. Li usiamo per rispondere alla richiesta e inviare programma e preventivo. Base giuridica: misure
+      precontrattuali richieste dall'interessato (art. 6.1.b GDPR).
     </li>
     <li>
-      <strong>Dati tecnici di navigazione</strong>: il fornitore che ospita il sito registra in automatico dati come
-      l'indirizzo IP e il tipo di browser, per motivi di sicurezza e funzionamento.
+      <strong>Aggiornamenti sulle nuove stagioni</strong>: l'email, solo se spunti la casella. Base giuridica: consenso
+      (art. 6.1.a GDPR), revocabile in qualsiasi momento senza conseguenze.
     </li>
     <li>
-      <strong>Statistiche</strong>: se attive, contiamo le visite in forma aggregata, senza cookie e senza identificarti.
+      <strong>Dati tecnici di navigazione</strong> (es. indirizzo IP), registrati dal fornitore di hosting per la
+      sicurezza del sito. Base giuridica: legittimo interesse (art. 6.1.f GDPR).
     </li>
   </ul>
-
-  <h2>Perché li usiamo</h2>
-  <ul>
-    <li>
-      Per rispondere alla tua richiesta e mandarti programma e preventivo: è una misura precontrattuale chiesta da te
-      (art. 6.1.b GDPR).
-    </li>
-    <li>
-      Per mandarti aggiornamenti sulle nuove stagioni, solo se hai spuntato la casella: si basa sul tuo consenso (art.
-      6.1.a GDPR), che puoi ritirare in qualsiasi momento.
-    </li>
-    <li>Per la sicurezza del sito: si basa sul nostro legittimo interesse (art. 6.1.f GDPR).</li>
-  </ul>
-
-  <h2>Per quanto tempo</h2>
-  <ul>
-    <li>
-      Le richieste di informazioni: fino a 24 mesi dall'ultimo contatto. Se la richiesta diventa una prenotazione, i dati
-      si conservano per il tempo previsto dalla legge.
-    </li>
-    <li>Gli aggiornamenti: finché non ritiri il consenso.</li>
-  </ul>
-
-  <h2>Chi può vederli</h2>
   <p>
-    Solo le persone del progetto che rispondono alle richieste e i fornitori tecnici che ci aiutano a far funzionare il
-    sito, nominati responsabili del trattamento. Non vendiamo né cediamo i tuoi dati a nessuno.
+    I campi obbligatori del modulo servono a rispondere: senza di essi non possiamo dare seguito alla richiesta.
   </p>
-  {
-    legal.processors.length > 0 && (
-      <ul>
-        {legal.processors.map((p) => (
-          <li>
-            {p.name}: {p.role.it}
-          </li>
-        ))}
-      </ul>
-    )
-  }
+
+  <h2>Conservazione</h2>
   <p>
-    Alcuni fornitori potrebbero avere sede fuori dall'Unione Europea, ad esempio negli Stati Uniti. In quel caso il
-    trasferimento avviene con le garanzie previste dal GDPR, come il Data Privacy Framework o le clausole contrattuali
-    standard approvate dalla Commissione Europea.
+    I dati delle richieste sono conservati fino a 24 mesi dall'ultimo contatto; quelli per gli aggiornamenti fino alla
+    revoca del consenso.
+  </p>
+
+  <h2>Destinatari</h2>
+  <p>
+    I dati sono trattati dal titolare e dai fornitori tecnici del sito (hosting e gestione del modulo), che agiscono
+    come responsabili del trattamento. Non sono venduti né diffusi. Se un fornitore ha sede fuori dall'Unione Europea,
+    il trasferimento avviene con le garanzie previste dagli artt. 44 e seguenti del GDPR.
   </p>
 
   <h2>Cookie</h2>
-  <p>
-    Il sito non usa cookie di profilazione né cookie di terze parti. I caratteri tipografici sono ospitati sul sito
-    stesso, senza collegamenti a servizi esterni.
-  </p>
+  <p>Il sito non usa cookie di profilazione né cookie di terze parti.</p>
 
-  <h2>I tuoi diritti</h2>
+  <h2>Diritti</h2>
   <p>
-    Puoi chiedere in qualsiasi momento di accedere ai tuoi dati, correggerli, cancellarli, limitarne l'uso, opporti al
-    trattamento, riceverli in un formato leggibile o ritirare il consenso. Basta scrivere a{' '}
-    <a href={`mailto:${legal.email}`}>{legal.email}</a>.
-  </p>
-  <p>
-    Se pensi che i tuoi dati siano trattati in modo scorretto puoi presentare un reclamo al{' '}
+    Puoi chiedere l'accesso, la rettifica, la cancellazione, la limitazione, la portabilità dei dati o opporti al
+    trattamento scrivendo a{' '}
+    <a href={`mailto:${legal.email}`}>{legal.email}</a>. Puoi anche proporre reclamo al{' '}
     <a href="https://www.garanteprivacy.it" rel="noopener">Garante per la protezione dei dati personali</a>.
   </p>
 </LegalLayout>

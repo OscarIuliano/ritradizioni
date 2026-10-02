@@ -15,8 +15,12 @@ interface Props {
 const { lang, title, alternates } = Astro.props;
 const t = content[lang];
 
+// I testi legali non devono mai uscire con dati mancanti: in locale un avviso,
+// nella build di produzione un errore che blocca la pubblicazione.
 if (legalMissing.length > 0) {
-  console.warn(`[note legali] Campi da compilare in src/config/legal.ts: ${legalMissing.join(', ')}`);
+  const message = `[note legali] Campi da compilare in src/config/legal.ts: ${legalMissing.join(', ')}`;
+  if (import.meta.env.PROD) throw new Error(message);
+  console.warn(message);
 }
 
 const updated = new Date(legal.updated).toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', {
@@ -30,13 +34,6 @@ const updated = new Date(legal.updated).toLocaleDateString(lang === 'it' ? 'it-I
   <Header lang={lang} alternates={alternates} />
   <main class="section">
     <article class="wrap legal">
-      {
-        legalMissing.length > 0 && (
-          <p class="missing">
-            Bozza: mancano alcuni dati del titolare in <code>src/config/legal.ts</code> ({legalMissing.join(', ')}).
-          </p>
-        )
-      }
       <h1>{title}</h1>
       <p class="updated">
         {t.legalPages.updated}: {updated}
@@ -75,13 +72,6 @@ const updated = new Date(legal.updated).toLocaleDateString(lang === 'it' ? 'it-I
   }
   .legal :global(li) {
     margin-bottom: 0.4rem;
-  }
-  .missing {
-    padding: 0.8rem 1rem;
-    border-radius: 10px;
-    background: #fdf0d8;
-    color: #7a5413;
-    font-size: 0.92rem;
   }
   .back {
     margin-top: 3rem;
