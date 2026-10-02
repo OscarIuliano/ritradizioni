@@ -15,7 +15,7 @@ In ordine di urgenza.
 
 ## Prima di andare online
 
-- **Dati del titolare** per note legali e privacy: nome o ragione sociale ed email (più sede e P.IVA se c'è), da inserire in `site/src/config/legal.ts`. Senza questi dati la build di produzione si ferma.
+- **Dati del titolare**: inseriti (Oscar Iuliano, come privato). Se nasce un'attività con P.IVA, aggiungere sede e P.IVA in `site/src/config/legal.ts`.
 - **Revisione dei testi legali** (`/note-legali/`, `/privacy/`) da parte di un professionista: sono il minimo richiesto, scritti da noi, non un parere legale. Le aggiunte previste sono in [Portale](06-portale.md#pagine-legali).
 
 ## Prima di accettare il primo pagamento

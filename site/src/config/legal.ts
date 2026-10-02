@@ -4,11 +4,11 @@
 
 export const legal = {
   /** Nome e cognome o ragione sociale di chi gestisce il sito. */
-  owner: 'DA COMPILARE: nome e cognome o ragione sociale',
+  owner: 'Oscar Iuliano',
   /** Indirizzo (facoltativo per un privato; obbligatorio con P.IVA, come sede). */
   address: '',
   /** Email a cui scrivere per informazioni e richieste privacy. */
-  email: 'DA COMPILARE: email di contatto',
+  email: 'oiuliano90@gmail.com',
   /** Partita IVA o codice fiscale, se presenti. Lasciare vuoto se non ci sono. */
   taxId: '',
   /** Data dell'ultimo aggiornamento dei testi (AAAA-MM-GG). */
