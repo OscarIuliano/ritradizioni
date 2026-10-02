@@ -108,7 +108,7 @@ Utile per dare un valore alle singole esperienze: una lezione di cucina con past
 
 Se il soggiorno base dura 4 notti, la fascia rustica porta a circa **600–850 € a persona** in camera doppia. Con meno servizi inclusi, la parte bassa della fascia è la più realistica. Il prezzo vero esce solo dal calcolo dei costi qui sopra: se i costi più il margine superano questa fascia, va rivisto cosa includere.
 
-## Proposta di struttura (bozza da confermare)
+## Struttura del prezzo
 
 Obiettivo indicato: **circa 100 € a persona per notte**, anche meno per partire. È meno della metà del benchmark di Maida (≈ 215 €): coerente con un'offerta diversa, più semplice e senza intermediari.
 
@@ -120,7 +120,7 @@ Il soggiorno non ha una durata fissa. Un prezzo a persona per notte si adatta a 
 
 | Componente | Proposta | Note |
 | --- | --- | --- |
-| Soggiorno base | 100 € a persona a notte, minimo 4 notti (= 400 € a persona) | Include alloggio, 3 esperienze garantite, 1 di stagione, i pasti legati alle esperienze |
+| Soggiorno base | 100 € a persona a notte, **minimo 4 notti (deciso)** (= 400 € a persona) | Include alloggio, 3 esperienze garantite, 1 di stagione, i pasti legati alle esperienze |
 | Notti in più | 50–60 € a persona a notte | Solo alloggio: le esperienze non si ripetono |
 | Esperienze extra | Prezzo singolo, es. 30–80 € a persona | Vino, giornata accompagnata, cena a casa, transfer |
 | Bambini | Gratis sotto i 3 anni, metà prezzo da 3 a 13 anni | Deciso |
@@ -130,7 +130,7 @@ Il soggiorno non ha una durata fissa. Un prezzo a persona per notte si adatta a 
 
 Per partire, un prezzo più basso **dichiarato come tale**, non uno sconto permanente:
 
-- **Prime partenze**: es. 85 € a persona a notte (−15%) per i primi 5–10 soggiorni o per la prima stagione.
+- **Prime partenze: 85 € a persona a notte (deciso)**, −15%, per i primi soggiorni o la prima stagione. Sul portale come "a partire da 85 €"; il prezzo pieno si conferma dopo il calcolo dei costi.
 - In cambio chiediamo ai primi ospiti un **feedback, foto e una recensione**: valgono più dello sconto.
 - Sul portale: "Prime partenze: da 85 € a persona a notte" e poi si torna al prezzo pieno senza dover giustificare un aumento.
 
@@ -154,8 +154,11 @@ In pratica: **alloggio, compensi delle persone, materie prime, pasti inclusi e p
 ## Prossimi passi
 
 - [ ] Raccogliere i costi reali dalle persone del posto e dai produttori
-- [ ] Confermare la struttura proposta (a persona a notte, minimo di notti, notti extra, bambini, singola)
-- [ ] Decidere il margine obiettivo e il prezzo di lancio
+- [x] Prezzo a persona a notte, minimo 4 notti, bambini (gratis sotto 3 anni, metà da 3 a 13)
+- [ ] Decidere notti extra e supplemento singola
+- [x] Prezzo di lancio: 85 € a persona a notte
+- [ ] Decidere il margine obiettivo
 - [x] Cercare offerte simili come confronto (vedi sopra)
-- [ ] Calcolare il prezzo di partenza e metterlo sul portale
+- [x] "A partire da 85 €" sul portale
+- [ ] Calcolare il prezzo pieno con i costi reali
 - [ ] Verificare il prezzo con i primi contatti interessati

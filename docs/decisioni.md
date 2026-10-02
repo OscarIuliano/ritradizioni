@@ -26,3 +26,4 @@
 | 2026-10-02 | Benchmark di riferimento: tour di Maida (≈ 1.290 € / 6 notti, ≈ 215 € a notte) | Offerta più simile in zona; restiamo volutamente diversi |
 | 2026-10-02 | Prezzo obiettivo: circa 100 € a persona per notte, anche meno per il lancio | Offerta più semplice, vendita diretta; da verificare con i costi |
 | 2026-10-02 | Bambini: gratis sotto i 3 anni, metà prezzo da 3 a 13 anni | Scelta del fondatore |
+| 2026-10-02 | Minimo 4 notti; prezzo di lancio 85 € a persona a notte, mostrato sul portale come "a partire da" | Prezzo pieno da confermare dopo il calcolo dei costi |

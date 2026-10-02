@@ -20,6 +20,7 @@ export interface Content {
     dayLabel: string;
     days: { kind: DayKind; title: string }[];
     extra: { title: string; text: string };
+    price: { label: string; from: string; amount: string; unit: string; children: string; cta: string };
     note: string;
   };
   experiences: {

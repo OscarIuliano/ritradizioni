@@ -41,6 +41,14 @@ export const it: Content = {
       { kind: 'guaranteed', title: 'A casa del produttore' },
     ],
     extra: { title: 'E se vuoi, di più', text: 'Altri giorni ed esperienze su misura' },
+    price: {
+      label: 'Prime partenze',
+      from: 'a partire da',
+      amount: '85 €',
+      unit: 'a persona a notte · minimo 4 notti',
+      children: 'Bambini sotto i 3 anni gratis, da 3 a 13 anni metà prezzo.',
+      cta: 'Chiedi un preventivo',
+    },
     note: 'L’alloggio è incluso. Viaggio e auto a noleggio li organizzi tu: ti diamo tutte le indicazioni.',
   },
   experiences: {
@@ -150,7 +158,7 @@ export const it: Content = {
     items: [
       {
         q: 'Quanto costa?',
-        a: 'Stiamo definendo i prezzi della prima stagione. Scrivici: ti mandiamo programma, date disponibili e prezzo.',
+        a: 'Per le prime partenze, a partire da 85 € a persona a notte, con un minimo di 4 notti. Sono inclusi l’alloggio, le esperienze e i pasti legati alle esperienze. Scrivici con le tue date: ti mandiamo programma e preventivo.',
       },
       {
         q: 'Il volo è incluso?',
@@ -158,7 +166,7 @@ export const it: Content = {
       },
       {
         q: 'Quanto dura il soggiorno?',
-        a: 'Il soggiorno base comprende le tre esperienze garantite, quella di stagione e una giornata libera. Puoi restare più a lungo e aggiungere altre esperienze: dicci cosa ti piacerebbe.',
+        a: 'Il soggiorno base dura almeno 4 notti e comprende le tre esperienze garantite, quella di stagione e una giornata libera. Puoi restare più a lungo e aggiungere altre esperienze: dicci cosa ti piacerebbe.',
       },
       {
         q: 'Serve l’auto?',

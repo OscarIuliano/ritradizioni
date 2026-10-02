@@ -41,6 +41,14 @@ export const en: Content = {
       { kind: 'guaranteed', title: 'Meet the maker' },
     ],
     extra: { title: 'And if you like, more', text: 'Extra days and experiences, tailored to you' },
+    price: {
+      label: 'First departures',
+      from: 'from',
+      amount: '€85',
+      unit: 'per person per night · 4 nights minimum',
+      children: 'Children under 3 stay free, from 3 to 13 half price.',
+      cta: 'Ask for a quote',
+    },
     note: 'Your house is included. You book your own travel and rental car, and we tell you everything you need.',
   },
   experiences: {
@@ -150,7 +158,7 @@ export const en: Content = {
     items: [
       {
         q: 'How much does it cost?',
-        a: 'We are setting the prices for our first season. Write to us and we will send you the programme, available dates and price.',
+        a: 'For our first departures, from €85 per person per night, with a 4-night minimum. Your house, the experiences and the meals that come with them are included. Send us your dates and we will reply with the programme and a quote.',
       },
       {
         q: 'Are flights included?',
@@ -158,7 +166,7 @@ export const en: Content = {
       },
       {
         q: 'How long is a stay?',
-        a: 'The core stay includes the three signature experiences, the seasonal one and a free day. You can stay longer and add more experiences: just tell us what you would like.',
+        a: 'The core stay is at least 4 nights and includes the three signature experiences, the seasonal one and a free day. You can stay longer and add more experiences: just tell us what you would like.',
       },
       {
         q: 'Do I need a car?',
