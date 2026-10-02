@@ -15,6 +15,22 @@ Ogni pacchetto è costruito attorno a una **esperienza principale di stagione**,
 
 **Prezzo**: costo fisso X a persona, da calcolare (vedi [domande aperte](05-domande-aperte.md)).
 
+## Capacità iniziale
+
+| Casa | Posti letto | Con bambini |
+| --- | --- | --- |
+| Casa 1 | 2–3 | fino a 4 |
+| Casa 2 | 2–3 | fino a 4 |
+| **Totale** | **4–6 adulti** | **fino a 8 persone** |
+
+Con questa capacità si possono ospitare due coppie o famiglie per volta, oppure un piccolo gruppo che prende entrambe le case.
+
+## Primo pacchetto: inverno 2026
+
+Il lancio è previsto entro inizio dicembre 2026. A dicembre la raccolta delle olive potrebbe essere nella fase finale: **va verificato con i produttori** fino a quando si raccoglie in zona.
+
+Se le olive sono già finite, il primo pacchetto può spostarsi sulle tradizioni di Natale e dell'inverno (dolci natalizi, conserve, cucina delle feste), tenendo l'olio nuovo come prodotto da portare a casa.
+
 ## Esempio di programma (pacchetto "Olio", autunno-inverno)
 
 1. **Giorno 1**: arrivo all'aeroporto di Lamezia, sistemazione in casa, cena di benvenuto.
