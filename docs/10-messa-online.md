@@ -8,10 +8,12 @@ Le schermate di Cloudflare e Formspree cambiano spesso: i nomi delle voci potreb
 
 ## 1. Dominio
 
-Nome scelto: **Calabria Lenta**. Il 2 ottobre 2026 `calabrialenta.com` e `calabrialenta.it` erano liberi.
+Nome scelto: **Calabria Lenta**.
 
-- [ ] **`calabrialenta.com`** (dominio principale, adatto a un pubblico estero): comprarlo direttamente su Cloudflare (Registrar, prezzo di costo) dopo aver creato l'account al passo 2.
+- [x] **`calabrialenta.com`** comprato su Cloudflare il 2026-10-02 (scadenza 2027-10-02, rinnovo automatico da verificare). Indirizzo del sito: `https://calabrialenta.com`.
 - [ ] **`calabrialenta.it`** (facoltativo, per proteggere il nome in Italia): comprarlo da un registrar italiano, poi sostituire i *nameserver* con quelli indicati da Cloudflare e reindirizzarlo al `.com`.
+
+**Ordine consigliato:** fare prima il passo 5 (Formspree) e mandare l'indirizzo del modulo, così la prima pubblicazione su Cloudflare va subito a buon fine.
 
 ## 2. Cloudflare: hosting
 
@@ -29,8 +31,8 @@ Nome scelto: **Calabria Lenta**. Il 2 ottobre 2026 `calabrialenta.com` e `calabr
 | Build command | `npm run build` |
 | Build output directory | `dist` |
 
-- [ ] Salvare. La prima build **fallirà di proposito** finché `site/src/config/site.ts` è vuoto: è normale.
-- [ ] Nel progetto, **Domini personalizzati → Aggiungi**: inserire `www.<dominio>` e anche `<dominio>` senza www.
+- [ ] Salvare. Se l'indirizzo del modulo non è ancora in `site/src/config/site.ts`, la prima build **fallisce di proposito**: è normale.
+- [ ] Nel progetto, **Domini personalizzati → Aggiungi**: inserire `calabrialenta.com` e anche `www.calabrialenta.com`.
 
 ## 3. Cloudflare: statistiche
 

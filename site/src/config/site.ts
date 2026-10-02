@@ -3,7 +3,7 @@
 
 export const site = {
   /** Indirizzo pubblico del sito, senza barra finale. Es. 'https://www.esempio.it'. */
-  url: '',
+  url: 'https://calabrialenta.com',
   /** Endpoint del modulo Formspree. Es. 'https://formspree.io/f/abcdwxyz'. */
   formEndpoint: '',
 };
