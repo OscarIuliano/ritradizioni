@@ -2,11 +2,11 @@ import type { Content } from './types';
 
 export const it: Content = {
   meta: {
-    title: 'Tra Due Mari · Vivi le tradizioni della Calabria',
+    title: 'Calabria Lenta · Vivi le tradizioni della Calabria',
     description:
       'Soggiorni in Calabria tra Tirreno e Ionio: raccolte di stagione, cucina tradizionale, passeggiate e una casa in campagna tutta per te.',
   },
-  brand: { name: 'Tra Due Mari', tagline: 'Tradizioni calabresi da vivere' },
+  brand: { name: 'Calabria Lenta', tagline: 'Tradizioni calabresi da vivere' },
   nav: {
     week: 'Il soggiorno',
     seasons: 'Le stagioni',

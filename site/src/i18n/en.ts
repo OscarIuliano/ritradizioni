@@ -2,11 +2,11 @@ import type { Content } from './types';
 
 export const en: Content = {
   meta: {
-    title: 'Tra Due Mari · Live the traditions of Calabria',
+    title: 'Calabria Lenta · Live the traditions of Calabria',
     description:
       'Stays in Calabria between the Tyrrhenian and Ionian seas: seasonal harvests, home cooking, walks and a countryside house of your own.',
   },
-  brand: { name: 'Tra Due Mari', tagline: 'Calabrian traditions to live, not just watch' },
+  brand: { name: 'Calabria Lenta', tagline: 'Calabrian traditions to live, not just watch' },
   nav: {
     week: 'Your stay',
     seasons: 'Seasons',

@@ -8,9 +8,10 @@ Le schermate di Cloudflare e Formspree cambiano spesso: i nomi delle voci potreb
 
 ## 1. Dominio
 
-- [ ] Scegliere il nome (vedi [Decisioni](decisioni.md)).
-- [ ] **Se `.com`**: comprarlo direttamente su Cloudflare (Registrar, prezzo di costo) dopo aver creato l'account al passo 2.
-- [ ] **Se `.it`**: comprarlo da un registrar italiano e poi, nel pannello del registrar, sostituire i *nameserver* con quelli che Cloudflare indica quando aggiungi il dominio.
+Nome scelto: **Calabria Lenta**. Il 2 ottobre 2026 `calabrialenta.com` e `calabrialenta.it` erano liberi.
+
+- [ ] **`calabrialenta.com`** (dominio principale, adatto a un pubblico estero): comprarlo direttamente su Cloudflare (Registrar, prezzo di costo) dopo aver creato l'account al passo 2.
+- [ ] **`calabrialenta.it`** (facoltativo, per proteggere il nome in Italia): comprarlo da un registrar italiano, poi sostituire i *nameserver* con quelli indicati da Cloudflare e reindirizzarlo al `.com`.
 
 ## 2. Cloudflare: hosting
 

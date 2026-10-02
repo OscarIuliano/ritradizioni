@@ -1,4 +1,4 @@
-# Sito – Tra Due Mari
+# Sito – Calabria Lenta
 
 Portale vetrina in [Astro](https://astro.build), pagina unica in italiano (`/`) e inglese (`/en/`).
 
