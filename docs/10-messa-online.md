@@ -45,8 +45,8 @@ Nome scelto: **Calabria Lenta**.
 
 ## 5. Formspree: modulo di richiesta
 
-- [ ] Creare un account su [formspree.io](https://formspree.io) con `oiuliano90@gmail.com` (piano **Free**).
-- [ ] Creare un nuovo modulo (es. "Richieste sito"): Formspree mostra un indirizzo tipo `https://formspree.io/f/abcdwxyz`.
+- [x] Creare un account su [formspree.io](https://formspree.io) con `oiuliano90@gmail.com` (piano **Free**).
+- [x] Creare un nuovo modulo: indirizzo `https://formspree.io/f/mkjglnwe`, inserito in `site/src/config/site.ts`.
 - [ ] Nelle impostazioni del modulo, limitare l'invio al proprio dominio (*Restrict to domain*), per evitare abusi.
 - [ ] Confermare l'email che Formspree invia alla prima richiesta.
 

@@ -5,7 +5,7 @@ export const site = {
   /** Indirizzo pubblico del sito, senza barra finale. Es. 'https://www.esempio.it'. */
   url: 'https://calabrialenta.com',
   /** Endpoint del modulo Formspree. Es. 'https://formspree.io/f/abcdwxyz'. */
-  formEndpoint: '',
+  formEndpoint: 'https://formspree.io/f/mkjglnwe',
 };
 
 export const siteMissing = Object.entries(site)
