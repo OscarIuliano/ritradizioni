@@ -1,0 +1,187 @@
+---
+import { Image } from 'astro:assets';
+import { images } from '../assets/images';
+import type { Content } from '../i18n/types';
+
+interface Props {
+  t: Content;
+}
+
+const { t } = Astro.props;
+const c = t.contact;
+---
+
+<section class="section" id="contatti">
+  <div class="wrap grid">
+    <div class="intro">
+      <h2>{c.title}</h2>
+      <p>{c.intro}</p>
+      <Image src={images.borgoBalcone} alt="" widths={[500, 900]} sizes="(max-width: 820px) 100vw, 440px" />
+    </div>
+
+    <!-- Il modulo non è collegato a nessun servizio: per ora mostra solo un messaggio. -->
+    <form class="form" data-contact-form novalidate>
+      <p class="preview">{c.previewNotice}</p>
+
+      <div class="row">
+        <label>
+          <span>{c.name} *</span>
+          <input name="name" type="text" autocomplete="name" required />
+        </label>
+        <label>
+          <span>{c.email} *</span>
+          <input name="email" type="email" autocomplete="email" required />
+        </label>
+      </div>
+
+      <label>
+        <span>{c.period} *</span>
+        <select name="period" required>
+          <option value="" disabled selected>—</option>
+          {c.periodOptions.map((o) => <option>{o}</option>)}
+        </select>
+      </label>
+
+      <div class="row">
+        <label>
+          <span>{c.adults}</span>
+          <input name="adults" type="number" min="1" max="8" value="2" inputmode="numeric" />
+        </label>
+        <label>
+          <span>{c.children}</span>
+          <input name="children" type="number" min="0" max="6" value="0" inputmode="numeric" />
+        </label>
+        <label>
+          <span>{c.country}</span>
+          <input name="country" type="text" autocomplete="country-name" />
+        </label>
+      </div>
+
+      <label>
+        <span>{c.message}</span>
+        <textarea name="message" rows="4" placeholder={c.messagePlaceholder}></textarea>
+      </label>
+
+      <label class="check">
+        <input name="privacy" type="checkbox" required />
+        <span>{c.privacy} *</span>
+      </label>
+      <label class="check">
+        <input name="updates" type="checkbox" />
+        <span>{c.updates}</span>
+      </label>
+
+      <button class="btn btn-primary" type="submit">{c.submit}</button>
+      <p class="success" role="status" hidden>{c.success}</p>
+    </form>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-contact-form]').forEach((form) => {
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+      form.querySelector<HTMLElement>('.success')!.hidden = false;
+      form.reset();
+    });
+  });
+</script>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: start;
+  }
+  .intro p {
+    font-size: 1.15rem;
+    color: var(--muted);
+  }
+  .intro img {
+    margin-top: 2rem;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: var(--radius);
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+    background: var(--paper);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  .preview {
+    margin: 0;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    background: #fdf0d8;
+    color: #7a5413;
+    font-size: 0.9rem;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.75rem 0.9rem;
+    border: 1.5px solid var(--line);
+    border-radius: 10px;
+    background: #fff;
+    color: var(--ink);
+    font: 400 1rem var(--font-body);
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: var(--sea);
+    box-shadow: 0 0 0 3px rgba(44, 108, 140, 0.18);
+  }
+  .check {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.7rem;
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .check input {
+    width: 1.15rem;
+    height: 1.15rem;
+    margin-top: 0.2rem;
+    flex: none;
+    accent-color: var(--terracotta);
+  }
+  .form .btn {
+    align-self: flex-start;
+    margin-top: 0.5rem;
+  }
+  .success {
+    margin: 0;
+    font-weight: 600;
+    color: var(--olive-dark);
+  }
+  @media (max-width: 820px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+    .intro img {
+      display: none;
+    }
+  }
+</style>

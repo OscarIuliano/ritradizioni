@@ -1,0 +1,71 @@
+---
+import type { Content } from '../i18n/types';
+
+interface Props {
+  t: Content;
+}
+
+const { t } = Astro.props;
+---
+
+<section class="section alt" id="domande">
+  <div class="wrap narrow">
+    <h2>{t.faq.title}</h2>
+    <div class="list">
+      {
+        t.faq.items.map((item) => (
+          <details>
+            <summary>{item.q}</summary>
+            <p>{item.a}</p>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .alt {
+    background: var(--sand);
+  }
+  .narrow {
+    max-width: 820px;
+  }
+  .list {
+    margin-top: 2rem;
+  }
+  details {
+    border-bottom: 1px solid var(--line);
+  }
+  summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem 0;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::after {
+    content: '+';
+    font-family: var(--font-body);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--terracotta);
+    transition: transform 0.2s;
+  }
+  details[open] summary::after {
+    transform: rotate(45deg);
+  }
+  details p {
+    margin: 0 0 1.3rem;
+    color: var(--muted);
+    max-width: 65ch;
+  }
+</style>

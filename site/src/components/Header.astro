@@ -1,0 +1,120 @@
+---
+import type { Lang } from '../i18n/types';
+import { content, homePath } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = content[lang];
+const links = [
+  { href: '#settimana', label: t.nav.week },
+  { href: '#stagioni', label: t.nav.seasons },
+  { href: '#case', label: t.nav.houses },
+  { href: '#dove', label: t.nav.location },
+  { href: '#domande', label: t.nav.faq },
+];
+const langs = Object.keys(homePath) as Lang[];
+---
+
+<header class="header">
+  <div class="wrap bar">
+    <a class="brand" href={homePath[lang]}>{t.brand.name}</a>
+    <nav class="nav" aria-label="Main">
+      {links.map((l) => <a href={l.href}>{l.label}</a>)}
+    </nav>
+    <div class="actions">
+      <div class="langs">
+        {
+          langs.map((l) => (
+            <a href={homePath[l]} aria-current={l === lang ? 'true' : undefined} hreflang={l}>
+              {l.toUpperCase()}
+            </a>
+          ))
+        }
+      </div>
+      <a class="btn btn-primary cta" href="#contatti">{t.nav.cta}</a>
+    </div>
+  </div>
+</header>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    height: var(--header-h);
+    background: rgba(247, 241, 230, 0.88);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(221, 208, 184, 0.7);
+  }
+  .bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .brand {
+    font-family: var(--font-display);
+    font-size: 1.45rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .nav {
+    display: flex;
+    gap: 1.6rem;
+    margin-inline: auto;
+  }
+  .nav a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+  .nav a:hover {
+    color: var(--ink);
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+  }
+  .langs {
+    display: flex;
+    gap: 0.15rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .langs a {
+    padding: 0.3rem 0.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--muted);
+  }
+  .langs a[aria-current] {
+    background: var(--sand);
+    color: var(--ink);
+  }
+  .cta {
+    padding: 0.6rem 1.1rem;
+    font-size: 0.92rem;
+  }
+  @media (max-width: 960px) {
+    .nav {
+      display: none;
+    }
+  }
+  @media (max-width: 420px) {
+    .bar {
+      gap: 0.75rem;
+    }
+    .brand {
+      font-size: 1.2rem;
+    }
+    .actions {
+      gap: 0.5rem;
+    }
+  }
+</style>

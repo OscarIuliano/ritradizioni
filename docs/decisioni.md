@@ -13,3 +13,6 @@
 | 2026-10-02 | Formula: 5 giorni = 3 esperienze garantite + 1 esperienza di stagione + 1 giornata libera | Struttura semplice da comunicare, varia solo la parte stagionale |
 | 2026-10-02 | Voli e viaggio non inclusi: li organizzano gli ospiti | Offerta limitata a soggiorno ed esperienze |
 | 2026-10-02 | Prima fase = validazione: portale vetrina che raccoglie contatti interessati | Capire se la proposta funziona prima di costruire prenotazioni e pagamenti |
+| 2026-10-02 | Sito in Astro, statico; hosting e servizi esterni non ancora attivati | Veloce, multilingua, costi quasi nulli, cresce nello stesso repository |
+| 2026-10-02 | Lingue del sito: inglese (principale) e italiano; tedesco più avanti | Testi scritti internamente in IT/EN |
+| 2026-10-02 | Nome provvisorio: "Tra Due Mari" | Richiama la posizione tra Tirreno e Ionio; da confermare |

@@ -1,0 +1,171 @@
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/inter';
+
+:root {
+  --cream: #f7f1e6;
+  --sand: #ece1cc;
+  --paper: #fffaf1;
+  --ink: #2b2620;
+  --muted: #6f665b;
+  --olive: #5f6b3a;
+  --olive-dark: #3d4524;
+  --terracotta: #b9562f;
+  --terracotta-dark: #96421f;
+  --sea: #2c6c8c;
+  --line: #ddd0b8;
+
+  --font-display: 'Fraunces Variable', Georgia, serif;
+  --font-body: 'Inter Variable', system-ui, -apple-system, sans-serif;
+
+  --radius: 18px;
+  --shadow: 0 10px 30px rgba(43, 38, 32, 0.12);
+  --wrap: 1180px;
+  --gutter: clamp(1rem, 4vw, 2rem);
+  --header-h: 68px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 12px);
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.5em;
+}
+
+h2 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: inherit;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--wrap);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.section {
+  padding-block: clamp(4rem, 9vw, 7rem);
+}
+
+.section-head {
+  max-width: 640px;
+  margin-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
+.section-head p {
+  color: var(--muted);
+  font-size: 1.15rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin-bottom: 0.9rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  font: 600 1rem/1 var(--font-body);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: var(--terracotta);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--terracotta-dark);
+}
+
+.btn-ghost {
+  border-color: currentColor;
+  color: inherit;
+  background: transparent;
+}
+
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+:focus-visible {
+  outline: 3px solid var(--sea);
+  outline-offset: 3px;
+}
+
+/* Colori per i tre tipi di giornata della formula. */
+.kind-guaranteed {
+  --kind: var(--olive);
+}
+.kind-seasonal {
+  --kind: var(--terracotta);
+}
+.kind-free {
+  --kind: var(--sea);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .btn {
+    transition: none;
+  }
+}

@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { content } from '../i18n';
+import type { Lang } from '../i18n/types';
+import Contact from './Contact.astro';
+import Experiences from './Experiences.astro';
+import Faq from './Faq.astro';
+import Footer from './Footer.astro';
+import Formula from './Formula.astro';
+import Header from './Header.astro';
+import Hero from './Hero.astro';
+import Houses from './Houses.astro';
+import Location from './Location.astro';
+import Pantry from './Pantry.astro';
+import Seasons from './Seasons.astro';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = content[lang];
+---
+
+<BaseLayout lang={lang}>
+  <Header lang={lang} />
+  <main>
+    <Hero t={t} />
+    <Formula t={t} />
+    <Experiences t={t} />
+    <Seasons t={t} />
+    <Pantry t={t} />
+    <Houses t={t} />
+    <Location t={t} />
+    <Faq t={t} />
+    <Contact t={t} />
+  </main>
+  <Footer t={t} />
+</BaseLayout>

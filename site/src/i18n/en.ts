@@ -1,0 +1,210 @@
+import type { Content } from './types';
+
+export const en: Content = {
+  meta: {
+    title: 'Tra Due Mari · Five days of Calabrian life',
+    description:
+      'Five-day stays in a Calabrian village between the Tyrrhenian and Ionian seas: seasonal harvests, home cooking, walks and a house of your own.',
+  },
+  brand: { name: 'Tra Due Mari', tagline: 'Calabrian traditions, five days at a time' },
+  nav: {
+    week: 'The week',
+    seasons: 'Seasons',
+    houses: 'The houses',
+    location: 'Where we are',
+    faq: 'FAQ',
+    cta: 'Get in touch',
+  },
+  hero: {
+    eyebrow: 'Calabria, Italy · between two seas',
+    title: 'Five days living Calabria like the people who call it home',
+    text: 'Pick olives, cook with the people who keep the family recipes, walk where tourists never go. Stay in a village house and take home the olive oil, sauce or jam you made yourself.',
+    primary: 'See the week',
+    secondary: 'Ask for details',
+    image: 'heroUliveto',
+  },
+  formula: {
+    title: 'One week, always the same recipe',
+    intro: 'Every stay lasts five days and is made of three ingredients. Only the seasonal one changes.',
+    kinds: {
+      guaranteed: { count: 3, label: 'Signature experiences', tag: 'Signature experience', text: 'Always included, whatever the month.' },
+      seasonal: { count: 1, label: 'Seasonal experience', tag: 'Seasonal experience', text: 'Follows whatever the land is giving at that moment.' },
+      free: { count: 1, label: 'Free day', tag: 'Free day', text: 'The sea, a day trip or doing nothing at all: your call.' },
+    },
+    dayLabel: 'Day',
+    days: [
+      { kind: 'guaranteed', title: 'Cooking with us' },
+      { kind: 'seasonal', title: 'The seasonal harvest' },
+      { kind: 'guaranteed', title: 'A special walk' },
+      { kind: 'free', title: 'Free day' },
+      { kind: 'guaranteed', title: 'Meet the maker' },
+    ],
+    note: 'Your house is included. You book your own travel, and we tell you everything you need to get here.',
+  },
+  experiences: {
+    title: 'Three signature experiences',
+    intro: 'Whenever you come, these three days are always part of your week.',
+    items: [
+      {
+        title: 'Cooking with us',
+        text: 'Knead, season, taste: you prepare a traditional lunch with someone from the village, then sit down at the table together.',
+        image: 'pastaFattaAMano',
+      },
+      {
+        title: 'A special walk',
+        text: 'A path through olive groves and hills with someone who has walked it all their life, up to a view you will carry home.',
+        image: 'sentiero',
+      },
+      {
+        title: 'Meet the maker',
+        text: 'Visit a local grower, see how their food is made and taste it right where it comes from.',
+        image: 'tavolaPergolato',
+      },
+    ],
+  },
+  seasons: {
+    title: 'Every season has its own experience',
+    intro: 'The seasonal experience follows the farming calendar. Pick a season to see what you will do and what you will take home.',
+    takeHomeLabel: 'You take home',
+    note: 'Periods are approximate and depend on the year and the weather.',
+    items: [
+      {
+        id: 'autumn',
+        name: 'Autumn',
+        months: 'October – December',
+        title: 'The olive harvest',
+        text: 'Gather olives under the trees, bring them to the mill and taste the fresh oil on warm bread.',
+        takeHome: 'New-season extra virgin olive oil',
+        image: 'raccoltaOlive',
+      },
+      {
+        id: 'winter',
+        name: 'Winter',
+        months: 'December – February',
+        title: 'Citrus and marmalade',
+        text: 'Pick oranges and mandarins straight from the trees and make marmalade the old way, slowly, over the fire.',
+        takeHome: 'Jars of marmalade',
+        image: 'arance',
+      },
+      {
+        id: 'spring',
+        name: 'Spring',
+        months: 'March – May',
+        title: 'Wild greens and home cooking',
+        text: 'Walk the fields to find and gather wild greens, then cook them together with family recipes.',
+        takeHome: 'Family recipes',
+        image: 'cortileForno',
+      },
+      {
+        id: 'summer',
+        name: 'Summer',
+        months: 'July – September',
+        title: 'Tomatoes and passata',
+        text: 'Pick ripe tomatoes and turn them into sauce the same day, all together, as every Calabrian family does in August.',
+        takeHome: 'Bottles of homemade tomato sauce',
+        image: 'salsaBarattoli',
+      },
+    ],
+  },
+  pantry: {
+    title: 'A souvenir you can eat',
+    text: 'At the end of the week you take home what you made with your own hands. The trip goes on at your table, every time you open the pantry.',
+    image: 'olio',
+  },
+  houses: {
+    title: 'The houses',
+    intro: 'Two houses in the heart of the village, made ready for guests. You live on a real street, with neighbours, everyday sounds and the smell of lunch cooking.',
+    items: [
+      {
+        name: 'Casa degli Ulivi',
+        beds: '2–3 beds · up to 4 with children',
+        text: 'Wooden beams, thick walls that stay cool in summer, a short walk from the square.',
+        image: 'cameraTravi',
+      },
+      {
+        name: 'Casa della Fontana',
+        beds: '2–3 beds · up to 4 with children',
+        text: 'Bright and quiet, ideal for a couple or a small family.',
+        image: 'cameraLuce',
+      },
+    ],
+  },
+  people: {
+    title: 'Who welcomes you',
+    text: 'There is no reception desk. You are welcomed by the people of the village: they open their doors, teach you their recipes and take you to the places they love.',
+    image: 'peperoni',
+  },
+  location: {
+    title: 'Between two seas',
+    text: 'We are near Lamezia Terme, in the narrowest part of Calabria: the Tyrrhenian Sea on one side, the Ionian on the other. Olive groves and beaches are never far apart.',
+    village: 'The village',
+    tyrrhenian: 'Tyrrhenian Sea',
+    ionian: 'Ionian Sea',
+    facts: [
+      { place: 'Lamezia Terme airport', time: 'about 20 min' },
+      { place: 'Lamezia Terme Centrale station', time: 'about 15 min' },
+      { place: 'Tyrrhenian beaches', time: 'about 20 min' },
+      { place: 'Ionian beaches', time: 'about 45 min' },
+    ],
+    note: 'Approximate driving times.',
+    image: 'costaCalabria',
+  },
+  faq: {
+    title: 'Questions',
+    items: [
+      {
+        q: 'How much does it cost?',
+        a: 'We are setting the prices for our first season. Write to us and we will send you the programme, available dates and price.',
+      },
+      {
+        q: 'Are flights included?',
+        a: 'No. You book your own travel, however you like. We give you all the directions from Lamezia Terme airport.',
+      },
+      {
+        q: 'Can I bring children?',
+        a: 'Yes. Each house has 2–3 beds and sleeps up to 4 with children. Kids love harvesting and cooking too.',
+      },
+      {
+        q: 'How many guests are there at a time?',
+        a: 'Very few. There are two houses: at most two couples or families at a time, or a small group of friends taking both.',
+      },
+      {
+        q: 'Do I need any farming experience?',
+        a: 'None at all. We show you everything, at your own pace.',
+      },
+      {
+        q: 'What if it rains?',
+        a: 'The programme is flexible: we move outdoor activities and bring indoor ones forward.',
+      },
+    ],
+  },
+  contact: {
+    title: 'Would you like to come?',
+    intro: 'Leave your details and your preferred season: we will write back with the programme, dates and price. No commitment.',
+    name: 'Name',
+    email: 'Email',
+    period: 'When would you like to come?',
+    periodOptions: [
+      'Autumn – olive harvest',
+      'Winter – citrus and marmalade',
+      'Spring – wild greens and cooking',
+      'Summer – tomatoes and sauce',
+      'Not sure yet',
+    ],
+    adults: 'Adults',
+    children: 'Children',
+    country: 'Where are you from?',
+    message: 'Message',
+    messagePlaceholder: 'Tell us a bit about yourself, or ask us anything.',
+    privacy: 'I have read the privacy notice and agree to my data being used to contact me.',
+    updates: 'I would like to hear about new seasons.',
+    submit: 'Send request',
+    previewNotice: 'Local preview: this form is not connected yet and nothing is sent.',
+    success: 'Thank you! In this preview no data was sent.',
+  },
+  footer: {
+    legal: 'Legal notice',
+    privacy: 'Privacy',
+    credits: 'Placeholder photos from Unsplash',
+  },
+};

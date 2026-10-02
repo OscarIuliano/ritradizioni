@@ -1,0 +1,210 @@
+import type { Content } from './types';
+
+export const it: Content = {
+  meta: {
+    title: 'Tra Due Mari · Cinque giorni di vita calabrese',
+    description:
+      'Settimane di 5 giorni in un paese della Calabria tra Tirreno e Ionio: raccolta, cucina tradizionale, passeggiate e una casa tutta per te.',
+  },
+  brand: { name: 'Tra Due Mari', tagline: 'Tradizioni calabresi, cinque giorni alla volta' },
+  nav: {
+    week: 'La settimana',
+    seasons: 'Le stagioni',
+    houses: 'Le case',
+    location: 'Dove siamo',
+    faq: 'Domande',
+    cta: 'Richiedi info',
+  },
+  hero: {
+    eyebrow: 'Calabria · tra il Tirreno e lo Ionio',
+    title: 'Cinque giorni per vivere la Calabria come chi ci abita',
+    text: 'Raccogli le olive, cucina con chi custodisce le ricette di famiglia, cammina dove i turisti non arrivano. Dormi in una casa del paese e torni a casa con l’olio, la salsa o la marmellata che hai fatto tu.',
+    primary: 'Scopri la settimana',
+    secondary: 'Richiedi informazioni',
+    image: 'heroUliveto',
+  },
+  formula: {
+    title: 'Una settimana, sempre la stessa ricetta',
+    intro: 'Ogni soggiorno dura cinque giorni ed è fatto di tre ingredienti. Cambia solo quello di stagione.',
+    kinds: {
+      guaranteed: { count: 3, label: 'Esperienze garantite', tag: 'Esperienza garantita', text: 'Ci sono sempre, in ogni periodo dell’anno.' },
+      seasonal: { count: 1, label: 'Esperienza di stagione', tag: 'Esperienza di stagione', text: 'Segue quello che offre la terra in quel momento.' },
+      free: { count: 1, label: 'Giornata libera', tag: 'Giornata libera', text: 'Mare, visite o riposo: decidi tu.' },
+    },
+    dayLabel: 'Giorno',
+    days: [
+      { kind: 'guaranteed', title: 'In cucina con noi' },
+      { kind: 'seasonal', title: 'La raccolta di stagione' },
+      { kind: 'guaranteed', title: 'Una passeggiata speciale' },
+      { kind: 'free', title: 'Giornata libera' },
+      { kind: 'guaranteed', title: 'A casa del produttore' },
+    ],
+    note: 'L’alloggio è incluso. Il viaggio lo organizzi tu: ti diamo tutte le indicazioni per arrivare.',
+  },
+  experiences: {
+    title: 'Le tre esperienze garantite',
+    intro: 'In qualunque mese arrivi, queste tre giornate fanno sempre parte della tua settimana.',
+    items: [
+      {
+        title: 'In cucina con noi',
+        text: 'Impasti, condisci, assaggi: prepari un pranzo tradizionale con una persona del paese, poi ci si siede a tavola insieme.',
+        image: 'pastaFattaAMano',
+      },
+      {
+        title: 'Una passeggiata speciale',
+        text: 'Un sentiero tra ulivi e colline, con chi lo percorre da sempre, fino a un panorama che ti porterai dietro.',
+        image: 'sentiero',
+      },
+      {
+        title: 'A casa del produttore',
+        text: 'Visiti chi lavora la terra in zona, scopri come nascono i suoi prodotti e li assaggi dove vengono fatti.',
+        image: 'tavolaPergolato',
+      },
+    ],
+  },
+  seasons: {
+    title: 'Ogni stagione ha la sua esperienza',
+    intro: 'L’esperienza di stagione segue il calendario della campagna. Scegli il periodo e scopri cosa farai e cosa porterai a casa.',
+    takeHomeLabel: 'Ti porti a casa',
+    note: 'Periodi indicativi: dipendono dall’annata e dal meteo.',
+    items: [
+      {
+        id: 'autumn',
+        name: 'Autunno',
+        months: 'Ottobre – Dicembre',
+        title: 'La raccolta delle olive',
+        text: 'Si raccolgono le olive sotto gli alberi, si portano al frantoio e si assaggia l’olio appena fatto sul pane caldo.',
+        takeHome: 'Olio extravergine nuovo',
+        image: 'raccoltaOlive',
+      },
+      {
+        id: 'winter',
+        name: 'Inverno',
+        months: 'Dicembre – Febbraio',
+        title: 'Agrumi e marmellata',
+        text: 'Si colgono arance e mandarini dagli alberi e si prepara la marmellata come si faceva una volta, piano, sul fuoco.',
+        takeHome: 'Vasetti di marmellata',
+        image: 'arance',
+      },
+      {
+        id: 'spring',
+        name: 'Primavera',
+        months: 'Marzo – Maggio',
+        title: 'Erbe di campo e cucina',
+        text: 'Si va per campi a riconoscere e raccogliere le erbe spontanee, poi si cucinano insieme secondo le ricette di casa.',
+        takeHome: 'Le ricette di famiglia',
+        image: 'cortileForno',
+      },
+      {
+        id: 'summer',
+        name: 'Estate',
+        months: 'Luglio – Settembre',
+        title: 'Pomodori e salsa',
+        text: 'Si raccolgono i pomodori maturi e si fa la salsa in giornata, tutti insieme, come d’agosto in ogni casa calabrese.',
+        takeHome: 'Bottiglie di salsa fatta in casa',
+        image: 'salsaBarattoli',
+      },
+    ],
+  },
+  pantry: {
+    title: 'Un ricordo che si mangia',
+    text: 'Alla fine della settimana porti a casa quello che hai preparato con le tue mani. Il viaggio continua a tavola, ogni volta che apri la dispensa.',
+    image: 'olio',
+  },
+  houses: {
+    title: 'Le case',
+    intro: 'Due case nel cuore del paese, sistemate per accogliere chi arriva. Vivi in una via vera, con i vicini, i rumori e i profumi di ogni giorno.',
+    items: [
+      {
+        name: 'Casa degli Ulivi',
+        beds: '2–3 posti letto · fino a 4 con bambini',
+        text: 'Travi a vista, muri spessi e fresco d’estate. A due passi dalla piazza.',
+        image: 'cameraTravi',
+      },
+      {
+        name: 'Casa della Fontana',
+        beds: '2–3 posti letto · fino a 4 con bambini',
+        text: 'Luminosa e silenziosa, perfetta per una coppia o una piccola famiglia.',
+        image: 'cameraLuce',
+      },
+    ],
+  },
+  people: {
+    title: 'Chi ti accoglie',
+    text: 'Non troverai una reception. Ti accolgono le persone del paese: ti aprono la porta, ti insegnano le ricette e ti portano nei posti che amano.',
+    image: 'peperoni',
+  },
+  location: {
+    title: 'Tra due mari',
+    text: 'Siamo vicino a Lamezia Terme, nella parte più stretta della Calabria: da un lato il Tirreno, dall’altro lo Ionio. In poco tempo passi dagli ulivi alla spiaggia.',
+    village: 'Il paese',
+    tyrrhenian: 'Mar Tirreno',
+    ionian: 'Mar Ionio',
+    facts: [
+      { place: 'Aeroporto di Lamezia Terme', time: 'circa 20 min' },
+      { place: 'Stazione di Lamezia Terme Centrale', time: 'circa 15 min' },
+      { place: 'Spiagge del Tirreno', time: 'circa 20 min' },
+      { place: 'Spiagge dello Ionio', time: 'circa 45 min' },
+    ],
+    note: 'Tempi indicativi in auto.',
+    image: 'costaCalabria',
+  },
+  faq: {
+    title: 'Domande frequenti',
+    items: [
+      {
+        q: 'Quanto costa?',
+        a: 'Stiamo definendo i prezzi della prima stagione. Scrivici: ti mandiamo programma, date disponibili e prezzo.',
+      },
+      {
+        q: 'Il volo è incluso?',
+        a: 'No. Il viaggio lo organizzi tu, in totale libertà. Ti diamo tutte le indicazioni per arrivare dall’aeroporto di Lamezia Terme.',
+      },
+      {
+        q: 'Posso venire con i bambini?',
+        a: 'Sì. Ogni casa ha 2–3 posti letto e ospita fino a 4 persone con i bambini. Raccogliere e cucinare piace molto anche ai più piccoli.',
+      },
+      {
+        q: 'Quante persone ci sono per volta?',
+        a: 'Pochissime. Le case sono due: al massimo due coppie o famiglie per volta, oppure un piccolo gruppo di amici che le prende entrambe.',
+      },
+      {
+        q: 'Serve esperienza in campagna?',
+        a: 'No, nessuna. Ti mostriamo tutto noi, al tuo ritmo.',
+      },
+      {
+        q: 'E se piove?',
+        a: 'Il programma è flessibile: spostiamo le attività all’aperto e anticipiamo quelle al coperto.',
+      },
+    ],
+  },
+  contact: {
+    title: 'Ti piacerebbe venire?',
+    intro: 'Lasciaci i tuoi dati e il periodo che preferisci: ti scriviamo con programma, date e prezzo. Senza impegno.',
+    name: 'Nome',
+    email: 'Email',
+    period: 'Quando ti piacerebbe venire?',
+    periodOptions: [
+      'Autunno – raccolta delle olive',
+      'Inverno – agrumi e marmellata',
+      'Primavera – erbe e cucina',
+      'Estate – pomodori e salsa',
+      'Non ho ancora deciso',
+    ],
+    adults: 'Adulti',
+    children: 'Bambini',
+    country: 'Da dove vieni?',
+    message: 'Messaggio',
+    messagePlaceholder: 'Raccontaci qualcosa di te o chiedici quello che vuoi.',
+    privacy: 'Ho letto l’informativa privacy e acconsento al trattamento dei miei dati per essere ricontattato.',
+    updates: 'Vorrei ricevere aggiornamenti sulle nuove stagioni.',
+    submit: 'Invia la richiesta',
+    previewNotice: 'Anteprima locale: il modulo non è ancora collegato e i dati non vengono inviati.',
+    success: 'Grazie! In questa anteprima nessun dato è stato inviato.',
+  },
+  footer: {
+    legal: 'Note legali',
+    privacy: 'Privacy',
+    credits: 'Foto segnaposto da Unsplash',
+  },
+};

@@ -1,0 +1,52 @@
+---
+import { Image } from 'astro:assets';
+import { images } from '../assets/images';
+import type { Content } from '../i18n/types';
+
+interface Props {
+  t: Content;
+}
+
+const { t } = Astro.props;
+---
+
+<section class="pantry">
+  <Image class="bg" src={images[t.pantry.image]} alt="" widths={[800, 1600]} sizes="100vw" />
+  <div class="shade"></div>
+  <div class="wrap content">
+    <h2>{t.pantry.title}</h2>
+    <p>{t.pantry.text}</p>
+  </div>
+</section>
+
+<style>
+  .pantry {
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+  }
+  .bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .shade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(20, 18, 12, 0.82) 0%, rgba(20, 18, 12, 0.45) 60%, rgba(20, 18, 12, 0.1) 100%);
+  }
+  .content {
+    position: relative;
+    padding-block: clamp(5rem, 14vw, 9rem);
+  }
+  h2 {
+    max-width: 14ch;
+  }
+  p {
+    max-width: 46ch;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+</style>

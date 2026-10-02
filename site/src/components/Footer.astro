@@ -1,0 +1,67 @@
+---
+import type { Content } from '../i18n/types';
+
+interface Props {
+  t: Content;
+}
+
+const { t } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="wrap bar">
+    <div>
+      <strong class="brand">{t.brand.name}</strong>
+      <p>{t.brand.tagline}</p>
+    </div>
+    <nav class="links">
+      <a href="#">{t.footer.legal}</a>
+      <a href="#">{t.footer.privacy}</a>
+      <a href="https://unsplash.com" rel="noopener">{t.footer.credits}</a>
+    </nav>
+  </div>
+  <div class="wrap copy">© {year} {t.brand.name}</div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--olive-dark);
+    color: #efe7d6;
+    padding-block: 3rem 2rem;
+  }
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  .brand {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .bar p {
+    margin: 0.3rem 0 0;
+    opacity: 0.8;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .links a {
+    text-decoration: none;
+    opacity: 0.85;
+  }
+  .links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+  .copy {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    opacity: 0.6;
+  }
+</style>

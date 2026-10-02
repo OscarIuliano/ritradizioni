@@ -1,0 +1,136 @@
+---
+import type { Content } from '../i18n/types';
+
+interface Props {
+  t: Content;
+}
+
+const { t } = Astro.props;
+const l = t.location;
+// Fatti in ordine: aeroporto, stazione, Tirreno, Ionio (vedi i18n).
+const [airport, , tyrrhenian, ionian] = l.facts;
+---
+
+<section class="section" id="dove">
+  <div class="wrap grid">
+    <div>
+      <h2>{l.title}</h2>
+      <p class="lead">{l.text}</p>
+      <ul class="facts">
+        {
+          l.facts.map((f) => (
+            <li>
+              <span>{f.place}</span>
+              <strong>{f.time}</strong>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="note">{l.note}</p>
+    </div>
+
+    <figure class="map" aria-hidden="true">
+      <svg viewBox="0 0 560 360" role="img">
+        <!-- mari -->
+        <path d="M0 0 H130 C110 70 150 140 120 200 C95 260 140 310 120 360 H0 Z" fill="#2c6c8c" />
+        <path d="M560 0 H420 C445 80 405 150 440 220 C465 270 425 320 445 360 H560 Z" fill="#2c6c8c" />
+        <!-- onde -->
+        <g stroke="#ffffff" stroke-opacity="0.35" stroke-width="3" fill="none" stroke-linecap="round">
+          <path d="M24 40 q12 -8 24 0 t24 0" />
+          <path d="M30 330 q12 -8 24 0 t24 0" />
+          <path d="M466 40 q12 -8 24 0 t24 0" />
+          <path d="M474 330 q12 -8 24 0 t24 0" />
+        </g>
+        <text x="62" y="186" class="sea" text-anchor="middle" transform="rotate(-90 62 186)">{l.tyrrhenian}</text>
+        <text x="500" y="186" class="sea" text-anchor="middle" transform="rotate(90 500 186)">{l.ionian}</text>
+
+        <!-- percorsi -->
+        <g stroke="#2b2620" stroke-width="2" stroke-dasharray="6 6" fill="none">
+          <path d="M138 190 L224 190" />
+          <path d="M256 190 L426 190" />
+          <path d="M240 206 L190 282" />
+        </g>
+        <text x="181" y="178" class="time" text-anchor="middle">{tyrrhenian.time}</text>
+        <text x="341" y="178" class="time" text-anchor="middle">{ionian.time}</text>
+
+        <!-- paese -->
+        <circle cx="240" cy="190" r="16" fill="#b9562f" />
+        <circle cx="240" cy="190" r="6" fill="#fffaf1" />
+        <text x="240" y="150" class="village" text-anchor="middle">{l.village}</text>
+
+        <!-- aeroporto -->
+        <circle cx="180" cy="298" r="18" fill="#fffaf1" stroke="#2b2620" stroke-width="2" />
+        <path d="M171 298 h18 M180 289 l5 9 l-5 9 M176 294 l-3 -4 M176 302 l-3 4" stroke="#2b2620" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="208" y="294" class="label">{airport.place}</text>
+        <text x="208" y="314" class="time">{airport.time}</text>
+      </svg>
+    </figure>
+  </div>
+</section>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: center;
+  }
+  .lead {
+    font-size: 1.15rem;
+    color: var(--muted);
+  }
+  .facts {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0.75rem;
+  }
+  .facts li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .facts strong {
+    white-space: nowrap;
+    color: var(--olive-dark);
+  }
+  .note {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .map {
+    margin: 0;
+    background: var(--sand);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .map svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .sea {
+    fill: #fff;
+    font: 600 15px var(--font-body);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .time {
+    fill: #2b2620;
+    font: 600 14px var(--font-body);
+  }
+  .village {
+    fill: #2b2620;
+    font: 600 20px var(--font-display);
+  }
+  .label {
+    fill: #2b2620;
+    font: 500 14px var(--font-body);
+  }
+  @media (max-width: 820px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
