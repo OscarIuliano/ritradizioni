@@ -16,6 +16,8 @@ Ogni soggiorno ha 3 esperienze garantite, 1 esperienza di stagione e 1 giornata 
 | [Portale](docs/06-portale.md) | Il sito vetrina della prima fase: pagine, modulo di richiesta, requisiti |
 | [Prezzo](docs/07-prezzo.md) | Metodo e voci di costo per calcolare il prezzo di partenza |
 | [Benchmark Maida](docs/08-benchmark-maida.md) | Confronto voce per voce con l'offerta più simile in zona |
+| [Test di mercato](docs/09-test-di-mercato.md) | Piano di 6 settimane per misurare l'interesse: obiettivi, canali, gestione richieste |
+| [Messa online](docs/10-messa-online.md) | Guida passo passo: dominio, Cloudflare, Formspree |
 | [Decisioni](docs/decisioni.md) | Registro delle decisioni prese |
 
 ## Stato

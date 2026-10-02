@@ -1,7 +1,10 @@
 ---
 import '../styles/global.css';
+import { getImage } from 'astro:assets';
 import type { Lang } from '../i18n/types';
 import { content, homePath } from '../i18n';
+import { images } from '../assets/images';
+import { site, siteMissing } from '../config/site';
 
 interface Props {
   lang: Lang;
@@ -13,6 +16,20 @@ interface Props {
 
 const { lang, title, alternates = homePath } = Astro.props;
 const t = content[lang];
+
+// Il sito non deve uscire senza indirizzo pubblico e modulo collegato:
+// in locale un avviso, nella build di produzione un errore.
+if (siteMissing.length > 0) {
+  const message = `[messa online] Campi da compilare in src/config/site.ts: ${siteMissing.join(', ')}`;
+  if (import.meta.env.PROD) throw new Error(message);
+  console.warn(message);
+}
+
+const pageTitle = title ? `${title} · ${t.brand.name}` : t.meta.title;
+const canonical = site.url ? new URL(Astro.url.pathname, site.url).href : undefined;
+const ogImage = site.url
+  ? new URL((await getImage({ src: images.heroUliveto, width: 1200, height: 630, format: 'jpg' })).src, site.url).href
+  : undefined;
 ---
 
 <!doctype html>
@@ -20,7 +37,7 @@ const t = content[lang];
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title ? `${title} · ${t.brand.name}` : t.meta.title}</title>
+    <title>{pageTitle}</title>
     <meta name="description" content={t.meta.description} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     {
@@ -29,6 +46,15 @@ const t = content[lang];
       ))
     }
     <meta name="theme-color" content="#f7f1e6" />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={t.brand.name} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={t.meta.description} />
+    <meta property="og:locale" content={lang === 'it' ? 'it_IT' : 'en_GB'} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
     <slot />

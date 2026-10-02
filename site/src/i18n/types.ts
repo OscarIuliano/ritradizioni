@@ -95,7 +95,10 @@ export interface Content {
     updates: string;
     submit: string;
     previewNotice: string;
+    sending: string;
     success: string;
+    error: string;
+    mailSubject: string;
   };
   footer: { legal: string; legalHref: string; privacy: string; privacyHref: string };
   legalPages: { updated: string; back: string };

@@ -63,8 +63,8 @@ Da aggiungere più avanti:
 - [ ] Prezzi indicativi e non vincolanti: il prezzo vale solo con il preventivo scritto
 - [ ] Proprietà di testi e foto, licenza Unsplash per le foto attuali
 - [ ] Responsabilità per i link esterni
-- [ ] Nome dei fornitori (hosting, modulo) e dettagli sul trasferimento dei dati, quando attivati
-- [ ] Statistiche di visita, quando attivate
+- [x] Nome dei fornitori (Cloudflare, Formspree) e trasferimento dei dati negli USA
+- [x] Statistiche di visita (Cloudflare Web Analytics, senza cookie)
 - [ ] Condizioni di prenotazione e cancellazione, prima di accettare pagamenti
 - [ ] Revisione completa da parte di un professionista
 

@@ -241,7 +241,10 @@ export const en: Content = {
     updates: 'I would like to hear about new seasons.',
     submit: 'Send request',
     previewNotice: 'Local preview: this form is not connected yet and nothing is sent.',
-    success: 'Thank you! In this preview no data was sent.',
+    sending: 'Sending…',
+    success: 'Thank you! We have received your request and will get back to you soon.',
+    error: 'Something went wrong. Please try again shortly or email us.',
+    mailSubject: 'New request from the website (EN)',
   },
   footer: {
     legal: 'Legal notice',

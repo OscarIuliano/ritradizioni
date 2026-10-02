@@ -29,3 +29,6 @@
 | 2026-10-02 | Minimo 4 notti; prezzo di lancio 85 € a persona a notte, mostrato sul portale come "a partire da" | Prezzo pieno da confermare dopo il calcolo dei costi |
 | 2026-10-02 | I prodotti fatti in casa sono un dono alla partenza, non in vendita; quantità decisa da noi | Non siamo un'azienda che certifica prodotti: niente etichette né vendita |
 | 2026-10-02 | Pagine note legali e privacy scritte da noi, da far rivedere a un professionista; nessun cookie di profilazione | Requisito minimo per raccogliere richieste dal modulo |
+| 2026-10-02 | Messa online su Cloudflare (hosting, statistiche, dominio) con modulo Formspree | Costo zero a parte il dominio; tutto in un account |
+| 2026-10-02 | Dominio proprio fin dal lancio | Un indirizzo gratuito sembra poco professionale |
+| 2026-10-02 | Test di mercato di 6 settimane con obiettivi fissati prima | Decidere sui numeri, non sulle impressioni |

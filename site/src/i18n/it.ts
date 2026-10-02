@@ -241,7 +241,10 @@ export const it: Content = {
     updates: 'Vorrei ricevere aggiornamenti sulle nuove stagioni.',
     submit: 'Invia la richiesta',
     previewNotice: 'Anteprima locale: il modulo non è ancora collegato e i dati non vengono inviati.',
-    success: 'Grazie! In questa anteprima nessun dato è stato inviato.',
+    sending: 'Invio in corso…',
+    success: 'Grazie! Abbiamo ricevuto la tua richiesta e ti risponderemo al più presto.',
+    error: 'Qualcosa non ha funzionato. Riprova tra poco oppure scrivici via email.',
+    mailSubject: 'Nuova richiesta dal sito (IT)',
   },
   footer: {
     legal: 'Note legali',
