@@ -174,7 +174,7 @@ export const en: Content = {
       },
       {
         q: 'Can I bring children?',
-        a: 'Yes. Each house has 2–3 beds and sleeps up to 4 with children. Kids love harvesting and cooking too.',
+        a: 'Yes. Each house has 2–3 beds and sleeps up to 4 with children. Children under 3 stay free, and from 3 to 13 they pay half price. Kids love harvesting and cooking too.',
       },
       {
         q: 'How many guests are there at a time?',

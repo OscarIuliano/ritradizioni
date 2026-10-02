@@ -123,7 +123,7 @@ Il soggiorno non ha una durata fissa. Un prezzo a persona per notte si adatta a 
 | Soggiorno base | 100 € a persona a notte, minimo 4 notti (= 400 € a persona) | Include alloggio, 3 esperienze garantite, 1 di stagione, i pasti legati alle esperienze |
 | Notti in più | 50–60 € a persona a notte | Solo alloggio: le esperienze non si ripetono |
 | Esperienze extra | Prezzo singolo, es. 30–80 € a persona | Vino, giornata accompagnata, cena a casa, transfer |
-| Bambini | Es. gratis sotto i 3 anni, −50% fino a 12 | Da decidere |
+| Bambini | Gratis sotto i 3 anni, metà prezzo da 3 a 13 anni | Deciso |
 | Persona singola | Supplemento, oppure prezzo minimo a casa | La casa costa uguale anche con una persona |
 
 ### Prezzo di lancio

@@ -174,7 +174,7 @@ export const it: Content = {
       },
       {
         q: 'Posso venire con i bambini?',
-        a: 'Sì. Ogni casa ha 2–3 posti letto e ospita fino a 4 persone con i bambini. Raccogliere e cucinare piace molto anche ai più piccoli.',
+        a: 'Sì. Ogni casa ha 2–3 posti letto e ospita fino a 4 persone con i bambini. Sotto i 3 anni non pagano, da 3 a 13 anni pagano la metà. Raccogliere e cucinare piace molto anche ai più piccoli.',
       },
       {
         q: 'Quante persone ci sono per volta?',
