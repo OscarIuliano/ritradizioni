@@ -18,6 +18,7 @@ Ogni soggiorno ha 3 esperienze garantite, 1 esperienza di stagione e 1 giornata 
 | [Benchmark Maida](docs/08-benchmark-maida.md) | Confronto voce per voce con l'offerta più simile in zona |
 | [Test di mercato](docs/09-test-di-mercato.md) | Piano di 6 settimane per misurare l'interesse: obiettivi, canali, gestione richieste |
 | [Messa online](docs/10-messa-online.md) | Guida passo passo: dominio, Cloudflare, Formspree |
+| [Promozione](docs/11-promozione.md) | Testi pronti per WhatsApp, gruppi Facebook e Instagram |
 | [Decisioni](docs/decisioni.md) | Registro delle decisioni prese |
 
 ## Stato
